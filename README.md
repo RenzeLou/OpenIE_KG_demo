@@ -11,7 +11,12 @@
 cd my-graph-demo
 npm start
 ```
+4. Similar for the other sites, such as homepage and csf-models, just go to the folder and run `npm start`.
 
+
+11/12 update:
+- add categorized aggregated graph for Causal Network module (previous verson, namely no categorized graph, are backed up as `*_v2.js`).
+- add homepage and csf-model module demo.
 
 10/30 TODO:
 - optmize the display: when random select a subset of papers, still show "1/100" supported evidence, that is, need to calculate this info based on the selected subset only.
