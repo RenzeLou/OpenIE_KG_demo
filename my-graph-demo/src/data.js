@@ -3,7 +3,18 @@ export const PAPERS = [
     "id": "1_3_19",
     "title": "Paper 1_3_19",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "A",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "β",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_20_38",
@@ -11,9 +22,9 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Gene",
-        "name": "Retromer",
-        "explanation": "Retromer is a protein complex involved in transporting cellular material. Its dysfunction is linked to various disorders affecting the nervous system."
+        "type": "None",
+        "name": "retromer",
+        "explanation": "None"
       }
     ]
   },
@@ -23,9 +34,9 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ (Amyloid Beta)",
-        "explanation": "Aβ is a protein fragment produced in the brain that is known to form plaques, which are a hallmark of Alzheimer's Disease."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       }
     ]
   },
@@ -35,14 +46,29 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ peptides",
-        "explanation": "A highly conserved pattern of three Ct-truncated Aβ peptides in addition to Aβ1-40, Aβ1-42 could be shown by the Aβ-SDS-PAGE/immunoblot in the CSF of all investigated patients. Additionally, a previously undescribed peptide with Aβ-like immunoreactivity was found to regularly migrate cathodically of Aβ1-37 in all CSF samples analyzed."
+        "type": "None",
+        "name": "Aβ1-40",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Synthetic a-synuclein",
-        "explanation": "Synthetic a-synuclein was found to migrate at a molecular mass of approximately 16 kDa in a non-urea SDS-PAGE."
+        "type": "None",
+        "name": "Aβ1-42",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Aβ1-37",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Ct-truncated Aβ peptides",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "α-synuclein",
+        "explanation": "None"
       }
     ]
   },
@@ -79,34 +105,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Tau Pathology",
-        "name": "Phosphorylated tau (p-tau)",
-        "explanation": "P-tau epitopes are identified as targets for immunotherapy to trigger an immune response that may aid in clearing tau proteins."
+        "type": "None",
+        "name": "phosphorylated tau (p-tau)",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "AADvac-1",
-        "explanation": "AADvac-1 is a vaccine developed as an anti-tau agent in Alzheimer's disease treatment, focusing on inducing an immune response against tau pathology."
+        "type": "None",
+        "name": "tau protein",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neurofilament",
-        "explanation": "The vaccine AADvac-1 showed results in reducing blood neurofilament levels, which is associated with neurodegeneration."
-      },
-      {
-        "type": "Drug",
-        "name": "ACI-35",
-        "explanation": "ACI-35 is an immunotherapy drug targeting tau pathology in Alzheimer's, though its efficacy was initially lower than expected."
-      },
-      {
-        "type": "Drug",
-        "name": "ACI-35.030",
-        "explanation": "ACI-35.030 is a modified version of ACI-35, designed to enhance immune response and has shown promise in early phase trials."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "Cognitive Decline",
-        "explanation": "AADvac-1 has shown potential in slowing cognitive decline, particularly in younger patients, as observed in trials."
+        "type": "None",
+        "name": "neurofilament",
+        "explanation": "None"
       }
     ]
   },
@@ -114,7 +125,28 @@ export const PAPERS = [
     "id": "1_84_59",
     "title": "Paper 1_84_59",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_16_41",
@@ -162,34 +194,29 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "Insulin",
-        "explanation": "Insulin is a hormone important for glucose regulation and has been associated with cognitive functions when administered peripherally or centrally."
+        "type": "None",
+        "name": "insulin",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "IR (Insulin Receptor) Expression",
-        "explanation": "Increased insulin receptor expression is linked to improved memory and learning."
+        "type": "None",
+        "name": "insulin receptor (IR) expression",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Memory Deficits",
-        "explanation": "Memory deficits are impairments in the ability to learn, retain, or recall information."
+        "type": "None",
+        "name": "glycemic levels",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "Streptozotocin",
-        "explanation": "Streptozotocin is a chemical compound used experimentally to induce diabetes and explore insulin resistance."
+        "type": "None",
+        "name": "memory loss (or cognitive impairment)",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Cognitive Impairment",
-        "explanation": "Cognitive impairment refers to a decline in cognitive functions such as memory and attention, often associated with conditions like Alzheimer's Disease."
-      },
-      {
-        "type": "Gene",
-        "name": "Diabetes Type 1 and 2",
-        "explanation": "Genetic and metabolic disorders with increased AD risk and associated cognitive impairments."
+        "type": "None",
+        "name": "central insulin resistance",
+        "explanation": "None"
       }
     ]
   },
@@ -199,9 +226,9 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Metabolism",
-        "name": "Metabolomic Characterization",
-        "explanation": "The study and analysis of metabolites within a biological system, especially as related to Alzheimer's Disease, using mass spectrometry."
+        "type": "None",
+        "name": "metabolite classes",
+        "explanation": "None"
       }
     ]
   },
@@ -238,9 +265,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Tau Pathology",
-        "name": "Hyperphosphorylated protein τ",
-        "explanation": "Protein τ experiences aberrant aggregation and interaction with microtubules, contributing to tau pathology."
+        "type": "None",
+        "name": "hyperphosphorylated tau",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "cytoskeletal proteins",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "microtubules",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "free  tau protein",
+        "explanation": "None"
       }
     ]
   },
@@ -329,29 +371,44 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Metabolism",
-        "name": "Insulin Resistance (IR)",
-        "explanation": "A metabolic condition where cells in the body become less responsive to insulin, often leading to increased blood glucose levels."
+        "type": "None",
+        "name": "insulin resistance (IR)",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Cognitive Performance",
-        "explanation": "Reduction in the ability to think, learn, and remember."
+        "type": "None",
+        "name": "fasting insulin",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Neuritic Plaques",
-        "explanation": "Deposits of amyloid-beta protein in the brain, considered a hallmark of Alzheimer's Disease."
+        "type": "None",
+        "name": "HOMA-IR",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Mediotemporal Lobe Atrophy",
-        "explanation": "Degeneration of the medial temporal lobe, a brain region crucial for memory and cognitive function."
+        "type": "None",
+        "name": "2-hour post-load plasma glucose",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "Glucose Metabolism",
-        "explanation": "The process by which the body uses glucose for energy, particularly in the brain."
+        "type": "None",
+        "name": "neuritic plaques",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "hippocampal volume",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "glucose metabolism (temporal lobe)",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "cognitive performance",
+        "explanation": "None"
       }
     ]
   },
@@ -479,34 +536,44 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Ab",
-        "explanation": "Amyloid beta (Ab) is a protein that can aggregate to form senile plaques, implicated in Alzheimer's disease."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neurodegeneration",
-        "explanation": "Refers to the progressive loss of structure or function of neurons, including their death."
+        "type": "None",
+        "name": "glial cells",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "Glial cell dysfunction",
-        "explanation": "Dysfunction in glial cells can lead to a cytotoxic environment, contributing to Alzheimer’s pathology."
+        "type": "None",
+        "name": "tau",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "Tau-dependent NFTs",
-        "explanation": "Neurofibrillary tangles (NFTs) are aggregates of hyperphosphorylated tau protein, a hallmark of Alzheimer's disease."
+        "type": "None",
+        "name": "neurofibrillary tangles (NFTs)",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "Impairment of calcium metabolism",
-        "explanation": "Alterations in calcium metabolism can affect cell signaling and health, contributing to Alzheimer's pathology."
+        "type": "None",
+        "name": "oxidative stress",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neuronal dysfunction",
-        "explanation": "Refers to impaired function of nerve cells, which can lead to degeneration and Alzheimer's pathology."
+        "type": "None",
+        "name": "mitochondrial dysfunction",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "calcium metabolism",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "neuroinflammation",
+        "explanation": "None"
       }
     ]
   },
@@ -530,14 +597,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "Donepezil",
-        "explanation": "Donepezil is a cholinesterase inhibitor used in the treatment of Alzheimer's Disease, shown to maintain cognitive benefits over several years."
+        "type": "None",
+        "name": "acetylcholinesterase (AChE)",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "MMSE Score",
-        "explanation": "The Mini-Mental State Examination (MMSE) score is used to measure cognitive impairment."
+        "type": "None",
+        "name": "cholinesterase (ChE)",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "MMSE score",
+        "explanation": "None"
       }
     ]
   },
@@ -574,19 +646,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
-        "name": "LRRK2",
-        "explanation": "A gene that, when mutated, is linked to neurotoxic effects and Parkinson's Disease."
+        "type": "None",
+        "name": "LRRK2 mutations",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "Retromer drugs",
-        "explanation": "Drugs that potentially enhance retromer function and may reverse neurotoxic effects, especially for LRRK2-induced pathologies."
+        "type": "None",
+        "name": "retromer levels",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neurotoxic effects",
-        "explanation": "Harmful alterations to the nervous system, often linked to gene mutations such as those in LRRK2."
+        "type": "None",
+        "name": "neurotoxic effects",
+        "explanation": "None"
       }
     ]
   },
@@ -623,14 +695,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Neurodegeneration",
-        "name": "18 F-FDG PET",
-        "explanation": "18 F-FDG PET is used to detect neuronal injury and degeneration associated with Alzheimer's Disease (AD)."
+        "type": "None",
+        "name": "Pittsburgh compound B (PiB)",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Amyloid PET with Pittsburgh compound B",
-        "explanation": "Amyloid PET imaging with Pittsburgh compound B is used to visualize amyloid-beta deposits characteristic of Alzheimer's Disease (AD)."
+        "type": "None",
+        "name": "amyloid PET",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Aβ (amyloid-beta) pathology",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "18F-FDG PET",
+        "explanation": "None"
       }
     ]
   },
@@ -667,29 +749,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Metabolism",
-        "name": "Glucose Metabolism",
-        "explanation": "The process by which glucose is taken up by neurons and glial cells for energy."
+        "type": "None",
+        "name": "glucose metabolism",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neuronal Degeneration",
-        "explanation": "Refers to the progressive loss of structure or function of neurons, including cell death."
+        "type": "None",
+        "name": "glucose uptake",
+        "explanation": "None"
       },
       {
-        "type": "Vascular Pathology",
-        "name": "Blood-Brain Barrier (BBB) Dysfunction",
-        "explanation": "Impairment of the BBB, which is responsible for protecting the brain from harmful substances."
-      },
-      {
-        "type": "Metabolism",
-        "name": "Glucose Uptake",
-        "explanation": "The process by which cells absorb glucose from the bloodstream."
-      },
-      {
-        "type": "Drug",
-        "name": "Alcohol",
-        "explanation": "A substance found in beverages that can affect various biological processes, including glucose metabolism and the BBB."
+        "type": "None",
+        "name": "blood-brain barrier (BBB) dysfunction",
+        "explanation": "None"
       }
     ]
   },
@@ -697,13 +769,7 @@ export const PAPERS = [
     "id": "3_85_39",
     "title": "Paper 3_85_39",
     "refined_relations": [],
-    "biomarkers": [
-      {
-        "type": "Drug",
-        "name": "Galantamine",
-        "explanation": "A drug under investigation for Alzheimer's treatment that has shown varied results in preclinical and clinical studies."
-      }
-    ]
+    "biomarkers": []
   },
   {
     "id": "3_44_0",
@@ -711,14 +777,9 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Neurodegeneration",
-        "name": "Alzheimer's disease",
-        "explanation": "A late-stage neurodegenerative disorder associated with progressive dementia that can lead to severe symptoms including brain death."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "Cognitive decline",
-        "explanation": "One of the symptoms of Alzheimer's disease, indicating a deterioration in cognitive function."
+        "type": "None",
+        "name": "cognitive decline",
+        "explanation": "None"
       }
     ]
   },
@@ -726,7 +787,168 @@ export const PAPERS = [
     "id": "1_29_33",
     "title": "Paper 1_29_33",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "M",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "I",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "(",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "d",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "g",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "v",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ")",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "3_55_26",
@@ -826,39 +1048,34 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "APP",
-        "explanation": "Mutations in APP have been identified in Caribbean Hispanic individuals with early-onset Alzheimer's Disease (AD)."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "PSEN1",
-        "explanation": "Mutations in PSEN1, including variants on an African haplotype and codon 280 (E280A), are linked to early-onset AD."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "PSEN2",
-        "explanation": "Mutations in PSEN2 have been identified in Caribbean Hispanic individuals with early-onset AD."
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "Crenezumab",
-        "explanation": "A monoclonal antibody used in a clinical trial to test its efficacy against monomeric and aggregated Aβ 1-40 and Aβ 1-42."
+        "type": "None",
+        "name": "Aβ1-40",
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
+        "name": "Aβ1-42",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "APOE ε4",
-        "explanation": "APOE ε4 homozygosity effects are blunted in Caribbean Hispanic individuals regarding AD risk."
-      },
-      {
-        "type": "Amyloid Pathology",
-        "name": "Aβ 1-40 and Aβ 1-42",
-        "explanation": "Targets of the drug crenezumab in Alzheimer's treatment trials."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "Cognitive Decline",
-        "explanation": "Although no statistically significant outcomes from treatment were identified, cognitive outcomes showed trends towards improvement."
+        "explanation": "None"
       }
     ]
   },
@@ -908,34 +1125,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Cognitive Decline",
-        "name": "Cognitive performance",
-        "explanation": "Refers to the ability to effectively perform tasks requiring attention, memory, and problem-solving skills."
-      },
-      {
-        "type": "Gene",
+        "type": "None",
         "name": "BDNF",
-        "explanation": "Brain-Derived Neurotrophic Factor, a protein known to support neuronal survival, growth, and differentiation."
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "cAMP response element-binding protein (CREB)",
-        "explanation": "A cellular transcription factor that helps switch on genes needed for memory and learning."
+        "type": "None",
+        "name": "CREB",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "L. paracasei K71",
-        "explanation": "A probiotic strain used to enhance cognitive performance by affecting neural pathways."
+        "type": "None",
+        "name": "phosphorylated CREB",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "B. subtilis",
-        "explanation": "A probiotic strain that impacts Alzheimer's related changes, improving behavioral and physiological responses."
-      },
-      {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "Aβ",
-        "explanation": "Amyloid-beta, a protein involved in the formation of plaques in the brains of those with Alzheimer's disease."
+        "explanation": "None"
       }
     ]
   },
@@ -1037,24 +1244,49 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Neuroinflammation",
-        "name": "Vascular-mediated inflammation",
-        "explanation": "Role of vascular-mediated inflammation is supported by the co-expression of glial and endothelial proteins."
+        "type": "None",
+        "name": "microglia",
+        "explanation": "None"
       },
       {
-        "type": "Vascular Pathology",
-        "name": "Extracellular matrix (ECM) proteins",
-        "explanation": "ECM proteins are responsible for mediating cell-cell interactions, and the module contains vascular elements."
+        "type": "None",
+        "name": "astrocytes",
+        "explanation": "None"
       },
       {
-        "type": "Vascular Pathology",
-        "name": "Endothelial proteins",
-        "explanation": "Endothelial proteins are upregulated in AD dementia and linked to vascular pathology."
+        "type": "None",
+        "name": "endothelial cell markers",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Alzheimer's Disease (AD)",
-        "explanation": "AD pathogenesis is associated with vascular-mediated inflammation and ECM proteins."
+        "type": "None",
+        "name": "extracellular matrix (ECM) proteins",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "CAV1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "COL6A1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "COL6A3",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "vascular proteins",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "inflammation",
+        "explanation": "None"
       }
     ]
   },
@@ -1064,14 +1296,24 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Amyloid-β42 (Aβ42)",
-        "explanation": "Misaggregated protein involved in AD, detected via PET imaging and CSF concentrations."
+        "type": "None",
+        "name": "amyloid-β42 (Aβ42)",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "Tau",
-        "explanation": "Misaggregated protein involved in AD, detected via PET imaging and CSF concentrations."
+        "type": "None",
+        "name": "tau",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "CSF amyloid-β42",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "CSF tau",
+        "explanation": "None"
       }
     ]
   },
@@ -1147,24 +1389,39 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
-        "name": "ADAM-10",
-        "explanation": "a-secretase involved in the proteolytic processing of amyloid precursor protein (APP)."
-      },
-      {
-        "type": "Gene",
-        "name": "TACE",
-        "explanation": "Tumor necrosis factor-a converting enzyme, part of the ADAM family of a-secretases involved in amyloid processing."
-      },
-      {
-        "type": "Metabolism",
+        "type": "None",
         "name": "PKC",
-        "explanation": "Protein kinase C, an enzyme that can phosphorylate other proteins and influence their activity, including a-secretases."
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
+        "type": "None",
+        "name": "ADAM (TACE)",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "ADAM-10",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "MAPKs ERK1/2",
-        "explanation": "Mitogen-activated protein kinases ERK1/2, enzymes that phosphorylate proteins and regulate various cellular activities."
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Aβ1-42",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "β-secretase",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "α-secretase",
+        "explanation": "None"
       }
     ]
   },
@@ -1212,7 +1469,933 @@ export const PAPERS = [
         "evidence_phrase": "The relation between pericytes and extracellular matrix proteins is important in understanding how vascular pathology can influence the structure and function of the ECM."
       }
     ],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "v",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "d",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "h",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "y",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "y",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "g",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "v",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "h",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "g",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "g",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "h",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "j",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "d",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "h",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "j",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "x",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "x",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "(",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "E",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "M",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ")",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "3_58_20",
@@ -1273,29 +2456,29 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ",
-        "explanation": "Aβ refers to amyloid-beta peptides that are considered significant in Alzheimer's disease pathology due to plaque formation."
-      },
-      {
-        "type": "Tau Pathology",
-        "name": "tau",
-        "explanation": "Tau proteins are involved in the formation of neurofibrillary tangles, which are characteristic of Alzheimer's disease."
-      },
-      {
-        "type": "Neuroinflammation",
+        "type": "None",
         "name": "reactive astrocyte biomarkers",
-        "explanation": "Biomarkers related to astrocyte activity, indicative of brain inflammation and reaction to amyloid and tau pathology."
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
+        "type": "None",
+        "name": "Aβ (amyloid-beta)",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "tau",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "neurodegeneration",
-        "explanation": "The progressive loss of structure or function of neurons, including their death, significant in Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
+        "type": "None",
         "name": "cognitive impairment",
-        "explanation": "A decline in cognitive function, including memory and thinking, which is symptomatic of Alzheimer's disease."
+        "explanation": "None"
       }
     ]
   },
@@ -1303,58 +2486,437 @@ export const PAPERS = [
     "id": "0_49_514",
     "title": "Paper 0_49_514",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_49_190",
     "title": "Paper 0_49_190",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "2_50_42",
     "title": "Paper 2_50_42",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "2_71_13",
     "title": "Paper 2_71_13",
     "refined_relations": [],
-    "biomarkers": [
-      {
-        "type": "Cognitive Decline",
-        "name": "cognitive performance",
-        "explanation": "The outcome of various cognitive functions measured through different tasks and their impact on memory formation and overall cognition."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "memory formation",
-        "explanation": "The process of encoding, storing, and retrieving information, crucial for learning and retaining new information."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "hippocampus",
-        "explanation": "A critical brain region involved in memory formation and majorly affected in Alzheimer's Disease."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "default mode network (DMN)",
-        "explanation": "A network of brain regions that show low levels of activity when a person is not focused on the outside world, and its deactivation is linked with improved cognitive performance."
-      }
-    ]
+    "biomarkers": []
   },
   {
     "id": "3_99_45",
     "title": "Paper 3_99_45",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "v",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "h",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "w",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_49_1053",
     "title": "Paper 0_49_1053",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "v",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "y",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "f",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "A",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "h",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "3_33_34",
@@ -1454,49 +3016,79 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "Withaferin A (WA)",
-        "explanation": "A compound found in W. somnifera that has anti-inflammatory effects and inhibits pathways involved in neuroinflammation and vascular pathology."
+        "type": "None",
+        "name": "TNF-α",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "Nitric Oxide",
-        "explanation": "A molecule involved in inflammation, the production of which is inhibited by WA."
+        "type": "None",
+        "name": "IL-1",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "COX-2",
-        "explanation": "An enzyme involved in inflammation, its expression and subsequent production of PGE2 is inhibited by WA."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "Prostaglandin E2 (PGE2)",
-        "explanation": "A product of COX-2 activity involved in inflammatory responses, production of which is inhibited by WA."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "Inducible Nitric Oxide Synthase (iNOS)",
-        "explanation": "An enzyme that produces nitric oxide, inhibited by WA."
-      },
-      {
-        "type": "Neuroinflammation",
+        "type": "None",
         "name": "NF-κB",
-        "explanation": "A transcription factor activated in response to inflammatory signals, inhibited by WA."
+        "explanation": "None"
       },
       {
-        "type": "Vascular Pathology",
-        "name": "Intracellular Adhesion Molecule (ICAM)-1",
-        "explanation": "A molecule involved in inflammation and vascular response, inhibited by WA."
+        "type": "None",
+        "name": "IκB kinase (IKK)",
+        "explanation": "None"
       },
       {
-        "type": "Vascular Pathology",
-        "name": "Vascular Cell Adhesion Molecule (VCAM)-1",
-        "explanation": "A molecule involved in inflammation and vascular response, inhibited by WA."
+        "type": "None",
+        "name": "nitric oxide (NO)",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "Tumor Necrosis Factor Alpha (TNF-α)",
-        "explanation": "A cytokine involved in inflammation, production reduced by WA."
+        "type": "None",
+        "name": "COX-2",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "iNOS",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "VCAM-1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "ICAM-1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Akt",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "prostaglandin E2 (PGE2)",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "STAT1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "STAT3",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "JNK pathway",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "p38 phosphorylation",
+        "explanation": "None"
       }
     ]
   },
@@ -1506,9 +3098,19 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Tau Pathology",
-        "name": "Tau Pathology",
-        "explanation": "A neuropathological hallmark of Alzheimer's Disease, involving abnormal accumulation of tau protein in the brain."
+        "type": "None",
+        "name": "gray matter",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "white matter",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "tau pathologies",
+        "explanation": "None"
       }
     ]
   },
@@ -1610,19 +3212,44 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ-triggered loss",
-        "explanation": "Aβ-triggered loss of synapses and neurons leads to brain injury in Alzheimer's disease."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "hyperphosphorylated tau-containing neurofibrillary lesions",
-        "explanation": "Lesions formed by hyperphosphorylated tau protein linked to neurodegeneration."
+        "type": "None",
+        "name": "synapse loss",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
+        "type": "None",
+        "name": "neuron loss",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "cortical tissue loss",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "hyperphosphorylated tau",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "neurofibrillary lesions",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "PET-detected tau",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "cognitive performance",
-        "explanation": "Performance in cognitive tasks, which correlates with measures of Aβ and tau pathology."
+        "explanation": "None"
       }
     ]
   },
@@ -1646,24 +3273,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "CNP520",
-        "explanation": "CNP520 is a drug evaluated for its ability to delay diagnosis to MCI and improve cognitive function in individuals at risk of Alzheimer's."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "MCI",
-        "explanation": "Mild Cognitive Impairment is a condition where individuals experience a decline in cognitive abilities, which may lead to Alzheimer's."
+        "type": "None",
+        "name": "APOE*ε4 carrier status",
+        "explanation": "None"
       },
       {
-        "type": "Gene",
-        "name": "APOE*ε4",
-        "explanation": "APOE*ε4 is an allele associated with increased risk of late-onset Alzheimer's disease. Individuals can be homozygous or heterozygous carriers."
-      },
-      {
-        "type": "Amyloid Pathology",
-        "name": "Elevated brain amyloid",
-        "explanation": "Elevated brain amyloid refers to increased levels of amyloid plaques in the brain, which are characteristic of early Alzheimer's pathology."
+        "type": "None",
+        "name": "elevated brain amyloid",
+        "explanation": "None"
       }
     ]
   },
@@ -1750,7 +3372,478 @@ export const PAPERS = [
         "evidence_phrase": "RyR releases Ca²⁺ from the ER, leading to an increase in intracellular calcium concentration."
       }
     ],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "N",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "M",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "D",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "A",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "-",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "R",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "A",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "M",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "P",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "A",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "-",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "R",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "V",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "G",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "T",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "R",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "P",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "²",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "⁺",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "x",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "c",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "u",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "²",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "⁺",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "I",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "P",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "₃",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "R",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "R",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "y",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "R",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": ",",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "E",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "R",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "C",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "²",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "⁺",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "t",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_51_14",
@@ -1758,14 +3851,14 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Cognitive Decline",
-        "name": "Mild Cognitive Impairment",
-        "explanation": "A clinically defined risk syndrome in which normal cognition and dementia cannot be sharply separated."
+        "type": "None",
+        "name": "imaging biomarkers",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Dementia",
-        "explanation": "A condition marked by a decline in cognitive function which imaging biomarkers help predict its progression."
+        "type": "None",
+        "name": "",
+        "explanation": "None"
       }
     ]
   },
@@ -1775,14 +3868,14 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Neurodegeneration",
-        "name": "Alzheimer's Disease",
-        "explanation": "A progressive neurodegenerative disorder characterized mainly by cognitive decline and tissue damage linked to the buildup of amyloid plaques and tau tangles."
+        "type": "None",
+        "name": "Aβ peptide",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ peptide",
-        "explanation": "A peptide linked to the amyloid plaques observed in Alzheimer's Disease."
+        "type": "None",
+        "name": "",
+        "explanation": "None"
       }
     ]
   },
@@ -1871,24 +3964,29 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "APOE",
-        "explanation": "APOE is essential for amyloid deposition in mice, suggesting its role in amyloid pathology."
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "total brain Aβ levels",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "Aβ plaques",
-        "explanation": "Aβ plaques are aggregations of amyloid-beta in the brain, associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Memory performance",
-        "explanation": "Improved memory performance indicates a reduction in cognitive decline associated with Alzheimer's disease."
-      },
-      {
-        "type": "Drug",
-        "name": "Aβ12-28 synthetic peptide",
-        "explanation": "A synthetic peptide that reduces brain amyloid levels and improves memory performance in mouse models."
+        "type": "None",
+        "name": "CAA burden",
+        "explanation": "None"
       }
     ]
   },
@@ -1898,19 +3996,34 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Neuroinflammation",
+        "type": "None",
         "name": "YKL-40",
-        "explanation": "YKL-40 is a protein involved in the activation of innate immune cells and is found in astrocytes within the central nervous system."
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
+        "type": "None",
+        "name": "CSF YKL-40",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "GFAP",
-        "explanation": "GFAP is a protein that serves as a marker for astrocytes in the brain."
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
+        "type": "None",
+        "name": "MAP2",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "IBA-1",
-        "explanation": "IBA-1 is a protein marker for microglial cells in the brain."
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "reactive astrocytes",
+        "explanation": "None"
       }
     ]
   },
@@ -1926,19 +4039,14 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Neurodegeneration",
-        "name": "Putamen Atrophy",
-        "explanation": "Reduction in volumes of the putamen observed in patients with probable Alzheimer's Disease."
+        "type": "None",
+        "name": "Putamen Volume",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Bilateral Putamen Atrophy",
-        "explanation": "Atrophy occurs in both sides of the putamen but is more pronounced in the lateral area of the left putamen with disease progression."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "Anterior Dorsal and Ventral Putamen Shape Changes",
-        "explanation": "Bilateral shape changes in the anterior dorsal and ventral putamen observed in patients with Early-Onset Alzheimer's Disease."
+        "type": "None",
+        "name": "Atrophy",
+        "explanation": "None"
       }
     ]
   },
@@ -1962,29 +4070,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "TREM2",
-        "explanation": "Triggering receptor expressed on myeloid cells 2 (TREM2), expressed in myeloid cells including microglia, is implicated in AD and shows risk with the R47H variant."
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neurodegenerative lesions",
-        "explanation": "Lesions that arise in the context of neurodegeneration and are influenced by factors such as microglial response and Aβ."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ accumulation",
-        "explanation": "Accumulation of amyloid-beta in the brain that triggers microglial response and affects neurodegeneration."
+        "type": "None",
+        "name": "Tau",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "Tau accumulation",
-        "explanation": "Associated with the loss of TREM2, leading to tau spread in models, indicating a connection to AD pathology."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "Microglial activation",
-        "explanation": "Microglia response, potentially attenuating or accelerating neurodegeneration based on activation state."
+        "type": "None",
+        "name": "Neurodegeneration",
+        "explanation": "None"
       }
     ]
   },
@@ -1994,29 +4097,19 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Tau Pathology",
-        "name": "Tauopathy",
-        "explanation": "Accumulation of tau proteins in the brain, particularly in medial temporal lobes."
+        "type": "None",
+        "name": "Tau",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "b-amyloidosis",
-        "explanation": "Deposition of beta-amyloid plaques in the cortical or neocortical areas."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
+        "type": "None",
         "name": "Neurodegeneration",
-        "explanation": "Progressive loss of structure or function of neurons, often used as a biomarker for Alzheimer's Disease."
-      },
-      {
-        "type": "Amyloid Pathology",
-        "name": "Amyloid PET",
-        "explanation": "Imaging technique using positron emission tomography to detect amyloid plaques in the brain."
-      },
-      {
-        "type": "Tau Pathology",
-        "name": "Tau PET",
-        "explanation": "Positron emission tomography scan to assess tau protein distribution in the brain."
+        "explanation": "None"
       }
     ]
   },
@@ -2024,7 +4117,48 @@ export const PAPERS = [
     "id": "3_75_5",
     "title": "Paper 3_75_5",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "B",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "P",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "H",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "2_2_8",
@@ -2032,19 +4166,14 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "Aβ accumulation",
-        "explanation": "Aβ accumulation is a hallmark of amyloid pathology, commonly evaluated in Alzheimer's disease research."
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "neurodegeneration",
-        "explanation": "Neurodegeneration refers to the progressive loss of structure or function of neurons, often observed in neurodegenerative diseases like Alzheimer's."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "cognitive performance",
-        "explanation": "Cognitive performance reflects the mental processes involved in gaining knowledge and comprehension, often assessed in Alzheimer's research to study cognitive decline."
+        "type": "None",
+        "name": "Neurodegeneration",
+        "explanation": "None"
       }
     ]
   },
@@ -2052,7 +4181,28 @@ export const PAPERS = [
     "id": "3_27_44",
     "title": "Paper 3_27_44",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_49_30",
@@ -2060,49 +4210,39 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Neurodegeneration",
-        "name": "AD",
-        "explanation": "Alzheimer's Disease, characterized by neurodegenerative processes."
+        "type": "None",
+        "name": "long-chain n-3 polyunsaturated fatty acids",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "inflammation",
-        "explanation": "Exacerbated inflammation involved in the Alzheimer's neurodegenerative process."
+        "type": "None",
+        "name": "antioxidant vitamins C",
+        "explanation": "None"
       },
       {
-        "type": "Gene",
-        "name": "phospholipids",
-        "explanation": "Phospholipids measured in peripheral blood that predict the risk of amnestic MCI or AD."
+        "type": "None",
+        "name": "antioxidant vitamins E",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "cognitive decline",
-        "explanation": "Reduction in cognitive abilities, associated with the progression or risk of AD."
-      },
-      {
-        "type": "Metabolism",
-        "name": "fatty acids",
-        "explanation": "Long-chain n-3 polyunsaturated fatty acids linked to AD risk and cognitive decline."
-      },
-      {
-        "type": "Metabolism",
-        "name": "antioxidant vitamins C and E",
-        "explanation": "Nutrients associated with slower cognitive decline."
-      },
-      {
-        "type": "Metabolism",
+        "type": "None",
         "name": "carotenoids",
-        "explanation": "Nutrients with potential beneficial effects on cognitive decline."
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
+        "type": "None",
         "name": "polyphenols",
-        "explanation": "Dietary components associated with reduced AD risk."
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "vitamins B and D",
-        "explanation": "Linked to a lower risk of AD and cognitive decline."
+        "type": "None",
+        "name": "vitamins B",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "and vitamins D",
+        "explanation": "None"
       }
     ]
   },
@@ -2112,19 +4252,19 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Neurodegeneration",
-        "name": "Alzheimer's disease",
-        "explanation": "Alzheimer's disease is the most common type of dementia and is associated with neurodegenerative processes."
+        "type": "None",
+        "name": "This paragraph discusses lifestyle",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "neurodegenerative diseases",
-        "explanation": "Neurodegenerative diseases, including Alzheimer's, involve the progressive degeneration of neurons in the brain."
+        "type": "None",
+        "name": "epidemiology",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "regular physical activity (PA)",
-        "explanation": "Regular physical activity involves bodily movements produced by muscles that expend energy, contributing to health benefits."
+        "type": "None",
+        "name": "and disease risk.",
+        "explanation": "None"
       }
     ]
   },
@@ -2132,30 +4272,61 @@ export const PAPERS = [
     "id": "1_58_61",
     "title": "Paper 1_58_61",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "3_50_44",
     "title": "Paper 3_50_44",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_5_9",
     "title": "Paper 1_5_9",
     "refined_relations": [],
-    "biomarkers": [
-      {
-        "type": "Cognitive Decline",
-        "name": "Subtle Cognitive Decline",
-        "explanation": "Refers to the decrease in cognitive abilities that can be observed even before the emergence of noticeable impairments."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "Biomarkers",
-        "explanation": "Biomarkers such as proteins or molecules in the brain are used to provide evidence of neurodegeneration and track AD-related changes prior to cognitive symptoms."
-      }
-    ]
+    "biomarkers": []
   },
   {
     "id": "2_65_15",
@@ -2163,14 +4334,14 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "[18 F]-AV-1451",
-        "explanation": "A PET imaging agent used to measure tau pathology in various brain regions."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "AD cortical signature [18 F]-AV-1451 SUVR",
-        "explanation": "A surrogate marker for tau pathology associated with Alzheimer's disease, reflecting tau deposition in specific cortical regions."
+        "type": "None",
+        "name": "[18F]-AV-1451",
+        "explanation": "None"
       }
     ]
   },
@@ -2178,7 +4349,28 @@ export const PAPERS = [
     "id": "0_4_32",
     "title": "Paper 0_4_32",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_2_39",
@@ -2186,14 +4378,9 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "HDACis",
-        "explanation": "Histone deacetylase inhibitors, reported to improve cognition in animal models of Alzheimer's Disease."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "improved cognition",
-        "explanation": "Enhanced cognitive function was observed in the animal models of Alzheimer's Disease upon administration of HDACis."
+        "type": "None",
+        "name": "HDACs",
+        "explanation": "None"
       }
     ]
   },
@@ -2295,44 +4482,49 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Neuroinflammation",
+        "type": "None",
+        "name": "TLRs",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "TLR4",
-        "explanation": "TLR4 is overexpressed in AD brains and essential for Aβ-induced activation of microglia, playing a role in neuroinflammatory responses."
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ42",
-        "explanation": "Aβ42 is recognized by TLRs, leading to inflammatory responses and is associated with amyloid deposits in Alzheimer's disease."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "IL-6",
-        "explanation": "IL-6, released upon TLRs activation by Aβ, contributes to inflammation and neuronal damage."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "IL-1β",
-        "explanation": "IL-1β is a pro-inflammatory cytokine released by TLR activation, contributing to AD-related neuroinflammation."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "TNF-α",
-        "explanation": "TNF-α is released by activated TLRs, leading to neuroinflammation and neuronal damage."
-      },
-      {
-        "type": "Amyloid Pathology",
-        "name": "Aβ",
-        "explanation": "Aβ (beta-amyloid) is a neurotoxic protein that aggregates in the brain, contributing to amyloid plaques in Alzheimer's disease."
-      },
-      {
-        "type": "Gene",
+        "type": "None",
         "name": "TLR2",
-        "explanation": "TLR2 is part of the TLRs group necessary for Aβ-induced microglial activation in Alzheimer's Disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "CD14",
-        "explanation": "CD14, along with TLR4 and TLR2, plays a role in the activation of microglia by Aβ plaques, influencing neuroinflammation in Alzheimer's Disease."
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Aβ42",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "IL-6",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "IL-1β",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "TNF-α",
+        "explanation": "None"
       }
     ]
   },
@@ -2340,7 +4532,28 @@ export const PAPERS = [
     "id": "0_49_724",
     "title": "Paper 0_49_724",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "2_4_6",
@@ -2348,24 +4561,19 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Gene",
-        "name": "Acetylcholine",
-        "explanation": "Neurotransmitter involved in promoting neuroplasticity and modulating cortical sensory maps."
+        "type": "None",
+        "name": "acetylcholine",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Cholinergic lesion",
-        "explanation": "Damage to cholinergic neurons, which may disrupt synaptic transmission and cerebral haemodynamic processes."
+        "type": "None",
+        "name": "NBM (nucleus basalis of Meynert)",
+        "explanation": "None"
       },
       {
-        "type": "Vascular Pathology",
-        "name": "Cerebral vasodilation",
-        "explanation": "The process where blood vessels in the brain widen, improving blood flow, promoted by the cholinergic system."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "Neuroplasticity",
-        "explanation": "The ability of the brain to reorganize itself, which is affected by cholinergic system functions."
+        "type": "None",
+        "name": "cerebral blood flow",
+        "explanation": "None"
       }
     ]
   },
@@ -2415,29 +4623,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "Estrogen",
-        "explanation": "A sex hormone that may play a role in neuroprotection and cognitive function."
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Cell death",
-        "explanation": "A process that estrogen may mitigate in the context of AD-related toxicity."
+        "type": "None",
+        "name": "Neurotransmitters",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Ab accumulation",
-        "explanation": "A condition that estrogen may help reduce, associated with Alzheimer's disease."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "Tau hyperphosphorylation",
-        "explanation": "A process related to Alzheimer's that estrogen may help mitigate."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "Cognition",
-        "explanation": "Aspects that observational studies suggest estrogen replacement may improve."
+        "type": "None",
+        "name": "Tau",
+        "explanation": "None"
       }
     ]
   },
@@ -2447,14 +4650,14 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Neurodegeneration",
+        "type": "None",
         "name": "RSC dysfunction",
-        "explanation": "Dysfunction of the Retrosplenial Cortex (RSC) in early Alzheimer's Disease."
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "difficulty translating between allocentric and egocentric reference frames",
-        "explanation": "Patients with Alzheimer's Disease struggle with spatial navigation tasks."
+        "type": "None",
+        "name": "Posterior cingulate dysfunction",
+        "explanation": "None"
       }
     ]
   },
@@ -2504,24 +4707,44 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Vascular Pathology",
-        "name": "Neurovascular Unit Impairment",
-        "explanation": "A disrupted neurovascular unit is linked to a cascade of adverse effects, potentially contributing to Alzheimer's Disease."
+        "type": "None",
+        "name": "Cerebral blood flow (CBF)",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "Inflammation",
-        "explanation": "Inflammation occurs within the brain and is implicated in the impairment of the neurovascular unit, exacerbating Alzheimer's disease progression."
+        "type": "None",
+        "name": "blood-brain barrier (BBB) disruption",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neurodegeneration",
-        "explanation": "Chronic neurovascular impairment eventually leads to neurodegeneration, contributing to symptoms of dementia."
+        "type": "None",
+        "name": "inflammation",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Cognitive Decline",
-        "explanation": "The progressive damage to the neurovascular unit and related processes result in cognitive decline seen in Alzheimer's Disease."
+        "type": "None",
+        "name": "oxidative stress",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "vasoconstrictors",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "nitric oxide deficit",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "neurodegeneration",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "cognitive decline",
+        "explanation": "None"
       }
     ]
   },
@@ -2558,24 +4781,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Vascular Pathology",
-        "name": "Hypertensive Pregnancy Disorders (HPD)",
-        "explanation": "HPD includes gestational hypertension, preeclampsia, eclampsia, chronic hypertension, and preeclampsia or eclampsia superimposed on chronic hypertension."
+        "type": "None",
+        "name": "Hypertensive pregnancy disorders (HPD)",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Subjective Cognitive Complaints",
-        "explanation": "Cognitive issues reported by individuals, potentially linked with HPD."
+        "type": "None",
+        "name": "Brain atrophy",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Brain Atrophy",
-        "explanation": "Reduction in brain volume observed in women with a history of HPD."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "White Matter Hyperintensities",
-        "explanation": "Brain lesions that are more prevalent in those with a history of HPD."
+        "type": "None",
+        "name": "White matter hyperintensities",
+        "explanation": "None"
       }
     ]
   },
@@ -2583,23 +4801,7 @@ export const PAPERS = [
     "id": "3_55_45",
     "title": "Paper 3_55_45",
     "refined_relations": [],
-    "biomarkers": [
-      {
-        "type": "Vascular Pathology",
-        "name": "Cerebrovascular Disease",
-        "explanation": "A disorder affecting the blood vessels supplying the brain, which may influence Alzheimer's Disease progression."
-      },
-      {
-        "type": "Gene",
-        "name": "Genetic Studies",
-        "explanation": "Research involving genetic factors that could provide insights into the mechanisms of Alzheimer's Disease."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "Alzheimer's Disease",
-        "explanation": "A degenerative cognitive disorder characterized by memory loss and confusion, often linked with various biological and genetic factors."
-      }
-    ]
+    "biomarkers": []
   },
   {
     "id": "3_98_29",
@@ -2621,14 +4823,14 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "Aβ deposition",
-        "explanation": "Aβ deposition is considered the earliest hallmark of Alzheimer's Disease (AD)."
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "CSF Aβ42 concentration",
-        "explanation": "The concentration of Aβ42 in cerebrospinal fluid (CSF) serves as a biomarker for Aβ pathology in Alzheimer's Disease."
+        "type": "None",
+        "name": "CSF Aβ42",
+        "explanation": "None"
       }
     ]
   },
@@ -2678,24 +4880,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Drug",
+        "type": "None",
+        "name": "AChE",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "APP",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "NMDA receptors",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "Huperzine A",
-        "explanation": "A compound extracted from the Chinese plant Huperzia serrata, known for inhibiting acetylcholinesterase and potentially influencing Alzheimer's Disease treatment."
-      },
-      {
-        "type": "Metabolism",
-        "name": "APP metabolism",
-        "explanation": "Involves the processing pathways of amyloid precursor protein, which is related to Alzheimer's Disease pathology."
-      },
-      {
-        "type": "Metabolism",
-        "name": "non-amyloidogenic α-secretase pathway",
-        "explanation": "A pathway in APP metabolism that does not lead to amyloid beta formation, potentially protective against Alzheimer's Disease."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "cognitive measures",
-        "explanation": "Refers to metrics used to assess cognitive performance, often measured in Alzheimer's Disease research."
+        "explanation": "None"
       }
     ]
   },
@@ -2703,13 +4905,55 @@ export const PAPERS = [
     "id": "3_65_26",
     "title": "Paper 3_65_26",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_54_118",
     "title": "Paper 0_54_118",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_70_36",
@@ -2717,14 +4961,9 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "RAGE antagonists",
-        "explanation": "RAGE antagonists are believed to be beneficial in treating several conditions, potentially including Alzheimer's Disease."
-      },
-      {
-        "type": "Drug",
-        "name": "PF-04494700 (TTP488)",
-        "explanation": "PF-04494700 is a drug under investigation for its efficacy and safety in treating Alzheimer's Disease."
+        "type": "None",
+        "name": "RAGE",
+        "explanation": "None"
       }
     ]
   },
@@ -2734,44 +4973,19 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ1-42 peptide",
-        "explanation": "A component of the AN-1792 Alzheimer vaccine, associated with Alzheimer's amyloid pathology."
+        "type": "None",
+        "name": "Aβ1-42",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "AN-1792",
-        "explanation": "A synthetic full-length Aβ1-42 peptide vaccine tested for Alzheimer's treatment in mild-to-moderate patients."
+        "type": "None",
+        "name": "Aβ1-6",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "QS-21",
-        "explanation": "An adjuvant used in combination with AN-1792 for Alzheimer's vaccine."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "meningoencephalitis",
-        "explanation": "A serious adverse effect noted in 6% of patients during AN-1792 vaccine trials, leading to discontinuation."
-      },
-      {
-        "type": "Drug",
-        "name": "CAD106",
-        "explanation": "An Alzheimer's vaccine in active trials, using Aβ1-6 peptide to induce a B-cell response without a T-cell response."
-      },
-      {
-        "type": "Amyloid Pathology",
-        "name": "Aβ1-6 peptide",
-        "explanation": "A component of CAD106, designed to provoke an immune response for Alzheimer’s treatment."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "cognitively unimpaired subjects",
-        "explanation": "The current target population for the CAD106 vaccine, potentially affected by Alzheimer's."
-      },
-      {
-        "type": "Gene",
+        "type": "None",
         "name": "ApoE4",
-        "explanation": "A genetic variant linked to a higher risk for Alzheimer's, targeted in CAD106 trials."
+        "explanation": "None"
       }
     ]
   },
@@ -2808,39 +5022,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ deposition",
-        "explanation": "Deposition of toxic β-amyloid peptide in the brain that affects the neurovascular unit."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Vascular Pathology",
-        "name": "Hypertension",
-        "explanation": "A condition that exacerbates Alzheimer's disease pathologies, affecting microvascular structures and the blood-brain barrier."
+        "type": "None",
+        "name": "microglia activation",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "Microglia activation",
-        "explanation": "Activation of microglia due to hypertension-induced blood-brain barrier disruption, contributing to amyloid plaque formation."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "Neuronal toxicity",
-        "explanation": "Toxic effects on neurons due to formation of amyloid plaques and hypertension-related vascular impairment."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "Capillary atrophy and regression",
-        "explanation": "Loss and regression of capillaries leading to ghost vessel formation, impairing cerebral blood flow."
-      },
-      {
-        "type": "Vascular Pathology",
-        "name": "Blood-brain barrier disruption",
-        "explanation": "Disruption of the blood-brain barrier linked to microvascular damage and hypertension."
-      },
-      {
-        "type": "Cognitive Decline",
-        "name": "Brain dysfunction",
-        "explanation": "Cognitive dysfunction resulting from a chain of vascular and inflammatory events in Alzheimer's disease."
+        "type": "None",
+        "name": "microhaemorrhages",
+        "explanation": "None"
       }
     ]
   },
@@ -2864,19 +5058,14 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "MMP-3",
-        "explanation": "Alteration in MMP-3 has been shown to be sex-specific and is associated with cognitive decline and Alzheimer's Disease pathology."
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "cognitive decline",
-        "explanation": "Cognitive decline is associated with level alterations in MMP-3."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "AD pathology",
-        "explanation": "Alzheimer's Disease pathology linked to alterations in the MMP-3 level."
+        "type": "None",
+        "name": "Cognitive decline",
+        "explanation": "None"
       }
     ]
   },
@@ -2884,13 +5073,150 @@ export const PAPERS = [
     "id": "3_99_43",
     "title": "Paper 3_99_43",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "2_9_64",
     "title": "Paper 2_9_64",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "B",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "l",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "d",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "-",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "b",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "d",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "b",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "i",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "m",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "a",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "k",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "r",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "s",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": " ",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "3_22_38",
@@ -2898,14 +5224,19 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "Ab42/40",
-        "explanation": "Ab42/40 isoforms are analyzed as biomarkers of Alzheimer's Disease core pathologies."
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "pTau",
-        "explanation": "pTau isoforms are analyzed as biomarkers of Alzheimer's Disease core pathologies."
+        "type": "None",
+        "name": "pTau isoforms",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "BBBM (blood-brain barrier biomarkers)",
+        "explanation": "None"
       }
     ]
   },
@@ -2942,19 +5273,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "BACE-1",
-        "explanation": "A novel transmembrane aspartate protease responsible for cleaving APP at the β-secretase site, leading to the production of Aβ peptide."
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
+        "name": "APP",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "Aβ peptide",
-        "explanation": "A peptide produced in the brain as a result of APP cleavage by β-secretase."
-      },
-      {
-        "type": "Drug",
-        "name": "β-secretase inhibitors",
-        "explanation": "Therapeutic agents targeting β-secretase to prevent the production of Aβ peptide."
+        "explanation": "None"
       }
     ]
   },
@@ -2962,7 +5293,28 @@ export const PAPERS = [
     "id": "0_17_15",
     "title": "Paper 0_17_15",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_22_47",
@@ -3010,24 +5362,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "APP",
-        "explanation": "Amyloid precursor protein (APP) involved in Alzheimer’s disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
-        "name": "rs63750847 SNP",
-        "explanation": "A rare variant associated with decreased risk of Alzheimer's Disease and cognitive decline."
-      },
-      {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "Aβ peptides",
-        "explanation": "Amyloid-beta peptides associated with amyloid pathology in Alzheimer’s disease."
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Late-Onset Alzheimer's Disease (LOAD)",
-        "explanation": "A form of Alzheimer’s Disease that typically develops later in life."
+        "type": "None",
+        "name": "Cognitive decline",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "β-Secretase",
+        "explanation": "None"
       }
     ]
   },
@@ -3035,7 +5387,28 @@ export const PAPERS = [
     "id": "0_52_215",
     "title": "Paper 0_52_215",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_24_11",
@@ -3070,19 +5443,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "SORL1",
-        "explanation": "SORL1 is studied due to its involvement in and interaction with APP sorting and metabolism."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "SORCS1",
-        "explanation": "SORCS1 is studied due to its involvement in and interaction with APP sorting and metabolism."
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "APP",
-        "explanation": "APP sorting and metabolism are involved in AD genetics, suggesting a role in the amyloid cascade hypothesis."
+        "explanation": "None"
       }
     ]
   },
@@ -3090,29 +5463,34 @@ export const PAPERS = [
     "id": "0_49_833",
     "title": "Paper 0_49_833",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_20_7",
     "title": "Paper 1_20_7",
     "refined_relations": [],
-    "biomarkers": [
-      {
-        "type": "Neurodegeneration",
-        "name": "Alzheimer's disease",
-        "explanation": "A progressive neurological disorder that results in brain cell death and memory loss."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "Parkinson's disease",
-        "explanation": "A neurodegenerative disorder that affects movement and can cause tremors and stiffness."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "Retromer",
-        "explanation": "A protein complex involved in transport and cargo sorting that has been linked to neurodegenerative disorders."
-      }
-    ]
+    "biomarkers": []
   },
   {
     "id": "3_55_3",
@@ -3120,19 +5498,19 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "APP",
-        "explanation": "A gene where mutations have been linked to familial Alzheimer's Disease (AD)."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "PSEN1",
-        "explanation": "A gene where mutations have been linked to familial Alzheimer's Disease (AD)."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "PSEN2",
-        "explanation": "A gene where mutations have been linked to familial Alzheimer's Disease (AD)."
+        "explanation": "None"
       }
     ]
   },
@@ -3142,14 +5520,14 @@ export const PAPERS = [
     "refined_relations": [],
     "biomarkers": [
       {
-        "type": "Drug",
-        "name": "Donepezil",
-        "explanation": "A drug with 100% bioavailability that enhances cognition and global clinical function in Alzheimer's disease patients."
+        "type": "None",
+        "name": "CYP2D6",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Cognition",
-        "explanation": "A mental function that can be impaired in Alzheimer's disease but is improved by Donepezil."
+        "type": "None",
+        "name": "CYP3A4",
+        "explanation": "None"
       }
     ]
   },
@@ -3157,13 +5535,55 @@ export const PAPERS = [
     "id": "2_36_1",
     "title": "Paper 2_36_1",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_52_482",
     "title": "Paper 0_52_482",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_8_25",
@@ -3224,29 +5644,29 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
-        "name": "APOE-e4",
-        "explanation": "A static genotypic variant that plays a role in modulating dynamic biomarker temporal relations and serves as a predictive static risk profile."
+        "type": "None",
+        "name": "Aβ",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "Ab",
-        "explanation": "A dynamic biomarker identified by Jack et al. as part of the temporal order in staging AD."
-      },
-      {
-        "type": "Tau Pathology",
+        "type": "None",
         "name": "Tau",
-        "explanation": "A dynamic biomarker related to structural and functional brain changes in the AD pathogenetic process."
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Structural and functional brain changes",
-        "explanation": "Dynamic changes observed in the brain that are related to AD progression."
+        "type": "None",
+        "name": "MRI-perfusion",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Memory and clinical functions",
-        "explanation": "Part of the temporal order of validated dynamic biomarkers for staging AD."
+        "type": "None",
+        "name": "MRI-volumetry",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "APOE-e4",
+        "explanation": "None"
       }
     ]
   },
@@ -3296,19 +5716,29 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Metabolism",
+        "type": "None",
         "name": "Insulin",
-        "explanation": "Insulin is involved in the regulation of glucose availability to neurons and has an effect on glucose metabolism."
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "Glucose",
-        "explanation": "Glucose metabolism is important as any impairment could lead to ATP synthesis issues, affecting neuronal health."
+        "type": "None",
+        "name": "Norepinephrine",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neuronal apoptosis",
-        "explanation": "Impaired glucose metabolism and disruptions in ATP synthesis can lead to neuronal cell death or apoptosis."
+        "type": "None",
+        "name": "Glucose availability",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "ATP synthesis",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Insulin receptor signaling",
+        "explanation": "None"
       }
     ]
   },
@@ -3316,7 +5746,28 @@ export const PAPERS = [
     "id": "2_6_26",
     "title": "Paper 2_6_26",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "1_31_14",
@@ -3377,29 +5828,34 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "CSF Aβ 1-42",
-        "explanation": "Soluble forms of Aβ, where low concentration suggests significant parenchymal deposition."
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
+        "type": "None",
         "name": "CSF T-tau",
-        "explanation": "Reflects neuronal degeneration."
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
+        "type": "None",
         "name": "CSF P-tau",
-        "explanation": "Reflects hyperphosphorylation of tau in the brain."
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
-        "name": "PET amyloid retention",
-        "explanation": "Significant retention is indicative of amyloidosis, measurable via PET scans."
+        "type": "None",
+        "name": "Amyloid PET",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Cognitive impairment",
-        "explanation": "Risk of incident impairment identified by biomarker tests."
+        "type": "None",
+        "name": "Brain amyloid",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Amyloid ligand retention",
+        "explanation": "None"
       }
     ]
   },
@@ -3423,19 +5879,14 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Metabolism",
-        "name": "Oxidative Stress",
-        "explanation": "Oxidative stress occurs due to an imbalance between the production of free radicals and the body's ability to counteract their harmful effects through neutralization by antioxidants."
+        "type": "None",
+        "name": "oxidative damage",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "Antioxidant Repair Systems",
-        "explanation": "Antioxidant repair systems are processes in the body that repair the oxidative damage caused by free radicals."
-      },
-      {
-        "type": "Drug",
-        "name": "Antioxidants",
-        "explanation": "Antioxidants are substances that prevent or delay oxidation of oxidizable substrates such as lipids, proteins, and DNA, thus protecting cells from oxidative damage. They are used as a therapeutic strategy for chronic diseases."
+        "type": "None",
+        "name": "free radicals",
+        "explanation": "None"
       }
     ]
   },
@@ -3443,7 +5894,28 @@ export const PAPERS = [
     "id": "0_52_203",
     "title": "Paper 0_52_203",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   },
   {
     "id": "0_76_52",
@@ -3491,19 +5963,19 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Neuroinflammation",
+        "type": "None",
         "name": "TNF-alpha",
-        "explanation": "A cytokine involved in the inflammatory processes in the brain, thought to affect synaptic function and neuronal health."
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Alzheimer's disease",
-        "explanation": "A progressive neurodegenerative disorder characterized by cognitive decline and loss of neuronal function."
+        "type": "None",
+        "name": "serum calcium",
+        "explanation": "None"
       },
       {
-        "type": "Drug",
-        "name": "Perispinal etanercept",
-        "explanation": "A therapeutic agent used to modulate TNF-alpha levels, potentially benefiting Alzheimer's disease patients by restoring TNF-alpha homeostasis."
+        "type": "None",
+        "name": "cerebrospinal fluid (CSF)",
+        "explanation": "None"
       }
     ]
   },
@@ -3566,119 +6038,194 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
         "name": "APOE",
-        "explanation": "APOE is a well-established genetic risk factor for Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "CR1",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "BIN1",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "CD2AP",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "EPHA1",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "CLU",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "MS4A6A",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "PICALM",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "ABCA7",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "CD33",
-        "explanation": "Identified as a risk locus associated with Alzheimer's disease, though not validated in replication."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
-        "name": "HLA-DRB5/HLA-DRB1",
-        "explanation": "Novel locus associated with Alzheimer's disease, involved in immune response."
+        "type": "None",
+        "name": "HLA-DRB5",
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
+        "name": "HLA-DRB1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "PTK2B",
-        "explanation": "Novel locus associated with Alzheimer's disease, involved in cell migration and memory formation."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "SORL1",
-        "explanation": "Gene modulating APP trafficking and processing, reaching genome-wide significance in Alzheimer's GWAS."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
+        "name": "SLC24A4",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "RIN3",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "DSG2",
-        "explanation": "Failed to replicate and validate as a locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "CASS4",
-        "explanation": "Involved in APP processing and tau pathology."
-      },
-      {
-        "type": "Tau Pathology",
-        "name": "FERMT2",
-        "explanation": "Associated with tau pathology."
-      },
-      {
-        "type": "Gene",
+        "type": "None",
         "name": "INPP5D",
-        "explanation": "Novel locus associated with Alzheimer's disease, involved in immune response pathways."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "MEF2C",
-        "explanation": "Associated with limited excessive synapse formation and related cognitive functions."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "NME8",
-        "explanation": "Suggested involvement in cytoskeletal function and axonal transport."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "ZCWPW1",
-        "explanation": "Novel susceptibility locus associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "CELF1",
-        "explanation": "Associated with axonal transport and cytoskeletal function."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "FERMT2",
-        "explanation": "Associated with tau pathology."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "CASS4",
-        "explanation": "Involved in APP processing and tau pathology."
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "HS3ST1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "SQSTM1",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "TREML2",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "NDUFAF6",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "ECHDC3",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "AP2A2",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "ADAMTS20",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "IGH",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "SPPL2A",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "TRIP4",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "SCIMP",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "ACE",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "APP",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "Tau",
+        "explanation": "None"
       }
     ]
   },
@@ -3715,34 +6262,39 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "Aβ plaque",
-        "explanation": "A beta-amyloid (Aβ) plaque, a protein fragment that accumulates in the brain, associated with Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "Iron",
-        "explanation": "Iron, an essential mineral, can participate in redox reactions affecting neuronal environments."
+        "type": "None",
+        "name": "iron-amyloid complex",
+        "explanation": "None"
       },
       {
-        "type": "Cognitive Decline",
-        "name": "Cognitive Functions",
-        "explanation": "Cognitive functions refer to mental processes like memory and decision-making, often impaired in Alzheimer's disease."
+        "type": "None",
+        "name": "magnetite",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "Phospho-tau",
-        "explanation": "Phosphorylated tau, a microtubule-associated protein, is linked to neurodegenerative processes in Alzheimer's."
+        "type": "None",
+        "name": "phospho-tau",
+        "explanation": "None"
       },
       {
-        "type": "Neuroinflammation",
-        "name": "Microglial dysfunction",
-        "explanation": "Microglia, the brain's primary immune cells, when dysfunctional, may contribute to Alzheimer's pathology."
+        "type": "None",
+        "name": "6-phosphofructo-2-kinase/fructose-2",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "Glycolysis",
-        "explanation": "Glycolysis is a metabolic pathway converting glucose into energy, its alteration is linked to cellular stress and dysfunction."
+        "type": "None",
+        "name": "6-biphosphatase 3",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "ferritin",
+        "explanation": "None"
       }
     ]
   },
@@ -3792,44 +6344,24 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Gene",
+        "type": "None",
+        "name": "biomarker_nodes: selenium",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
         "name": "GPX4",
-        "explanation": "GPX4 synthesis is essential for protecting neurons and preventing cell death."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "AP-2 gamma",
-        "explanation": "Transcription factor activated to augment GPX4."
+        "explanation": "None"
       },
       {
-        "type": "Gene",
+        "type": "None",
         "name": "specificity protein 1 (Sp1)",
-        "explanation": "Transcription factor activated to augment GPX4."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "ferroptosis",
-        "explanation": "A form of neuron death inhibited by selenium."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "excitotoxicity-mediated cell death",
-        "explanation": "A form of neuron damage counteracted by sodium selenate."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "ER stress-mediated cell death",
-        "explanation": "Another form of neuron damage counteracted by sodium selenate."
-      },
-      {
-        "type": "Drug",
-        "name": "selenium",
-        "explanation": "A trace element that is essential for GPX4 synthesis and inhibits ferroptosis."
-      },
-      {
-        "type": "Drug",
-        "name": "sodium selenate",
-        "explanation": "Inorganic compound of selenium that protects neurons in various ways."
+        "explanation": "None"
       }
     ]
   },
@@ -3879,29 +6411,29 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Metabolism",
+        "type": "None",
         "name": "AST to ALT ratio",
-        "explanation": "A liver function test ratio where a higher value has been associated with Alzheimer's disease pathology."
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "CSF t-tau",
-        "explanation": "Total tau protein levels in cerebrospinal fluid, an indicator of tau pathology."
+        "type": "None",
+        "name": "CSF t-tau levels",
+        "explanation": "None"
       },
       {
-        "type": "Amyloid Pathology",
+        "type": "None",
         "name": "CSF amyloid-β 1-42",
-        "explanation": "A form of amyloid-beta in cerebrospinal fluid, lower levels are associated with amyloid plaque formation in Alzheimer's disease."
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "p-tau",
-        "explanation": "Phosphorylated tau levels in cerebrospinal fluid, indicative of tau pathology in Alzheimer's disease."
+        "type": "None",
+        "name": "p-tau levels",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
+        "type": "None",
         "name": "brain glucose metabolism",
-        "explanation": "Glucose metabolism in the brain that may be indicative of brain energy use and synaptic activity, often reduced in Alzheimer's disease."
+        "explanation": "None"
       }
     ]
   },
@@ -3909,28 +6441,7 @@ export const PAPERS = [
     "id": "2_80_37",
     "title": "Paper 2_80_37",
     "refined_relations": [],
-    "biomarkers": [
-      {
-        "type": "Drug",
-        "name": "Curcumin",
-        "explanation": "A natural compound that shows multi-targeted effects and potential to modify the disease process in Alzheimer's Disease."
-      },
-      {
-        "type": "Drug",
-        "name": "AChE inhibitors",
-        "explanation": "Current drugs that target a single pathology in Alzheimer's Disease, specifically inhibiting acetylcholinesterase."
-      },
-      {
-        "type": "Drug",
-        "name": "NMDA antagonists",
-        "explanation": "Current drugs that target NMDA receptors but do not alter the progression of Alzheimer's Disease."
-      },
-      {
-        "type": "Neurodegeneration",
-        "name": "Neuron degeneration",
-        "explanation": "The process involving the decline and death of neurons, impacting the efficacy of some Alzheimer's treatments."
-      }
-    ]
+    "biomarkers": []
   },
   {
     "id": "0_34_21",
@@ -3952,19 +6463,14 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Metabolism",
-        "name": "Lipid Metabolism",
-        "explanation": "Disturbances in lipid metabolism might contribute to Alzheimer's disease pathogenesis."
+        "type": "None",
+        "name": "Cholesterol levels",
+        "explanation": "None"
       },
       {
-        "type": "Metabolism",
-        "name": "Cholesterol Levels",
-        "explanation": "An increase in cholesterol levels is a risk factor for Alzheimer's disease."
-      },
-      {
-        "type": "Neuroinflammation",
-        "name": "Inflammatory Processes",
-        "explanation": "Cholesterol levels changes in Alzheimer's disease might be related to inflammatory processes."
+        "type": "None",
+        "name": "inflammatory PET markers",
+        "explanation": "None"
       }
     ]
   },
@@ -4040,29 +6546,49 @@ export const PAPERS = [
     ],
     "biomarkers": [
       {
-        "type": "Amyloid Pathology",
-        "name": "Aβ 1-42 :Aβ 1-40 ratio",
-        "explanation": "A promising Aβ-related biomarker in blood for Alzheimer's Disease."
+        "type": "None",
+        "name": "Aβ1-42",
+        "explanation": "None"
       },
       {
-        "type": "Gene",
-        "name": "BACE1",
-        "explanation": "An enzyme whose activity in the blood might predict the progression from mild cognitive impairment to AD dementia by promoting the generation of Aβ peptides."
+        "type": "None",
+        "name": "Aβ1-40",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "Phosphorylated tau protein",
-        "explanation": "A major component of intraneuronal neurofibrillary tangles found in AD, with abnormal phosphorylation thought to be driven by Aβ peptides."
+        "type": "None",
+        "name": "Aβ1-42:Aβ1-40 ratio",
+        "explanation": "None"
       },
       {
-        "type": "Tau Pathology",
-        "name": "Tau levels in blood",
-        "explanation": "May be useful as a predictor of future cognitive decline."
+        "type": "None",
+        "name": "amyloid precursor protein (APP)",
+        "explanation": "None"
       },
       {
-        "type": "Neurodegeneration",
-        "name": "Neurofilament light (NFL)",
-        "explanation": "An axonal protein elevated in blood after neuronal injury; useful as a biomarker of neurodegeneration."
+        "type": "None",
+        "name": "β-secretase 1 (BACE1)",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "phosphorylated tau",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "tau",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "neurofibrillary tangles",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "neurofilament light (NFL)",
+        "explanation": "None"
       }
     ]
   },
@@ -4070,6 +6596,27 @@ export const PAPERS = [
     "id": "0_38_5",
     "title": "Paper 0_38_5",
     "refined_relations": [],
-    "biomarkers": []
+    "biomarkers": [
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "o",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "n",
+        "explanation": "None"
+      },
+      {
+        "type": "None",
+        "name": "e",
+        "explanation": "None"
+      }
+    ]
   }
 ];

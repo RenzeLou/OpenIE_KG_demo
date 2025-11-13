@@ -6,7 +6,7 @@ import math
 
 json_path = "/Users/reza/Desktop/OpenIE biomarker/demo/1022_233621/refined_relations.json" # the src result json file
 include_prob = False # whether to include entity probabilities. # TODO: wait for correct log prob output in the json
-ground_truth_biomarkers = False # whether to use ground truth biomarkers
+ground_truth_biomarkers = True # whether to use ground truth biomarkers
 # if true:
 ## use ground truth biomarkers, and all the relation can match the nodes (because all extracted relations' nodes are from ground truth biomarkers, or forced to be aligned with them)
 ## but the drawback is that there is no model explanation, as sll the biomarkers are human-annotated, instead of model predicted
