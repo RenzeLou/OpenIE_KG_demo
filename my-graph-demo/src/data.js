@@ -1,7 +1,7 @@
 export const PAPERS = [
   {
     "id": "1_3_19",
-    "title": "Paper 1_3_19",
+    "title": "paper 1: ApoE in Alzheimer’s disease pathophysiology and therapeutic strategies",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -18,7 +18,7 @@ export const PAPERS = [
   },
   {
     "id": "1_20_38",
-    "title": "Paper 1_20_38",
+    "title": "paper 2: Omics sciences for systems biology in Alzheimer’s disease_ State-of-the-art of the evidence",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -30,7 +30,7 @@ export const PAPERS = [
   },
   {
     "id": "0_52_366",
-    "title": "Paper 0_52_366",
+    "title": "paper 3: Artificial Intelligence for Alzheimer’s Disease Promise or Challenge",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -42,7 +42,7 @@ export const PAPERS = [
   },
   {
     "id": "0_46_28",
-    "title": "Paper 0_46_28",
+    "title": "paper 4: The Amyloid-β Pathway in Alzheimer’s Disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -74,7 +74,7 @@ export const PAPERS = [
   },
   {
     "id": "3_27_34",
-    "title": "Paper 3_27_34",
+    "title": "paper 5: Emerging diagnostics and therapeutics for Alzheimer disease",
     "refined_relations": [
       {
         "cause": {
@@ -123,7 +123,7 @@ export const PAPERS = [
   },
   {
     "id": "1_84_59",
-    "title": "Paper 1_84_59",
+    "title": "paper 6: Clinical diagnosis of Alzheimer's disease recommendations of the International Working Group",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -150,7 +150,7 @@ export const PAPERS = [
   },
   {
     "id": "1_16_41",
-    "title": "Paper 1_16_41",
+    "title": "paper 7: Advances in Deep Neuropathological Phenotyping of Alzheimer Disease Past, Present, and Future",
     "refined_relations": [
       {
         "cause": {
@@ -222,7 +222,7 @@ export const PAPERS = [
   },
   {
     "id": "0_52_381",
-    "title": "Paper 0_52_381",
+    "title": "paper 8: pathological_mechanisms_and_therapeutic_strategies.12",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -234,7 +234,7 @@ export const PAPERS = [
   },
   {
     "id": "2_32_21",
-    "title": "Paper 2_32_21",
+    "title": "paper 9: Cerebrospinal Fluid Biomarkers of Alzheimer’s Disease Current Evidence and Future Perspectives",
     "refined_relations": [
       {
         "cause": {
@@ -288,7 +288,7 @@ export const PAPERS = [
   },
   {
     "id": "2_49_11",
-    "title": "Paper 2_49_11",
+    "title": "paper 10: Tau biomarkers in Alzheimer's disease_ towards implementation in clinical practice and trials",
     "refined_relations": [
       {
         "cause": {
@@ -414,7 +414,7 @@ export const PAPERS = [
   },
   {
     "id": "1_87_7",
-    "title": "Paper 1_87_7",
+    "title": "paper 11: A computational model of neurodegeneration in Alzheimer’s disease",
     "refined_relations": [
       {
         "cause": {
@@ -579,7 +579,7 @@ export const PAPERS = [
   },
   {
     "id": "3_85_68",
-    "title": "Paper 3_85_68",
+    "title": "paper 12: Reactive astrocytes_ The nexus of pathological and clinical hallmarks of Alzheimer’s disease",
     "refined_relations": [
       {
         "cause": {
@@ -615,7 +615,7 @@ export const PAPERS = [
   },
   {
     "id": "1_20_34",
-    "title": "Paper 1_20_34",
+    "title": "paper 13: Alzheimer’s Disease An Update and Insights Into Pathophysiology",
     "refined_relations": [
       {
         "cause": {
@@ -664,7 +664,7 @@ export const PAPERS = [
   },
   {
     "id": "0_52_653",
-    "title": "Paper 0_52_653",
+    "title": "paper 14: Alzheimer s   Dementia - 2024 - Jack - Revised criteria for diagnosis and staging of Alzheimer s disease  Alzheimer s",
     "refined_relations": [
       {
         "cause": {
@@ -718,7 +718,7 @@ export const PAPERS = [
   },
   {
     "id": "2_19_64",
-    "title": "Paper 2_19_64",
+    "title": "paper 15: Aging, Cellular Senescence, and Alzheimer’s Disease",
     "refined_relations": [
       {
         "cause": {
@@ -767,13 +767,13 @@ export const PAPERS = [
   },
   {
     "id": "3_85_39",
-    "title": "Paper 3_85_39",
+    "title": "paper 16: Blood-based biomarkers for Alzheimer's disease_ Current state and future use in a transformed global healthcare landscape",
     "refined_relations": [],
     "biomarkers": []
   },
   {
     "id": "3_44_0",
-    "title": "Paper 3_44_0",
+    "title": "paper 17: Retinal changes in Alzheimer's disease— integrated prospects of imaging, functional and molecular advances",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -785,7 +785,7 @@ export const PAPERS = [
   },
   {
     "id": "1_29_33",
-    "title": "Paper 1_29_33",
+    "title": "paper 18: The human connectome in Alzheimer disease — relationship to biomarkers and genetics",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -952,7 +952,7 @@ export const PAPERS = [
   },
   {
     "id": "3_55_26",
-    "title": "Paper 3_55_26",
+    "title": "paper 19: Activation of Wnt β-catenin pathway mitigates blood–brain barrier dysfunction in Alzheimer’s disease",
     "refined_relations": [
       {
         "cause": {
@@ -1081,7 +1081,7 @@ export const PAPERS = [
   },
   {
     "id": "3_5_53",
-    "title": "Paper 3_5_53",
+    "title": "paper 20: Biomarkers used in Alzheimerâ&#x80;&#x99;s disease diagnosis, treatment, and prevention",
     "refined_relations": [
       {
         "cause": {
@@ -1148,7 +1148,7 @@ export const PAPERS = [
   },
   {
     "id": "3_32_29",
-    "title": "Paper 3_32_29",
+    "title": "paper 21: Therapeutic Approach to Alzheimer’s Disease Current Treatments and New Perspectives",
     "refined_relations": [
       {
         "cause": {
@@ -1292,7 +1292,7 @@ export const PAPERS = [
   },
   {
     "id": "2_98_1",
-    "title": "Paper 2_98_1",
+    "title": "paper 22: Alzheimer’s disease and its treatment by different approaches A review",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -1319,7 +1319,7 @@ export const PAPERS = [
   },
   {
     "id": "0_60_15",
-    "title": "Paper 0_60_15",
+    "title": "paper 23: Impaired insulin signalling and allostatic load in Alzheimer disease",
     "refined_relations": [
       {
         "cause": {
@@ -1427,7 +1427,7 @@ export const PAPERS = [
   },
   {
     "id": "3_19_21",
-    "title": "Paper 3_19_21",
+    "title": "paper 24: APOE and Alzheimer's disease_ advances in genetics, pathophysiology, and therapeutic approaches",
     "refined_relations": [
       {
         "cause": {
@@ -2399,7 +2399,7 @@ export const PAPERS = [
   },
   {
     "id": "3_58_20",
-    "title": "Paper 3_58_20",
+    "title": "paper 25: Astrocyte reactivity influences amyloid-β effects on tau pathology in preclinical Alzheimer’s disease",
     "refined_relations": [
       {
         "cause": {
@@ -2484,7 +2484,7 @@ export const PAPERS = [
   },
   {
     "id": "0_49_514",
-    "title": "Paper 0_49_514",
+    "title": "paper 26: Role of Aducanumab in the Treatment of Alzheimer s Disease  Challenges and Opportunities",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -2511,7 +2511,7 @@ export const PAPERS = [
   },
   {
     "id": "0_49_190",
-    "title": "Paper 0_49_190",
+    "title": "paper 27: Systems-based proteomics to resolve the biology of Alzheimer’s disease beyond amyloid and tau",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -2538,7 +2538,7 @@ export const PAPERS = [
   },
   {
     "id": "2_50_42",
-    "title": "Paper 2_50_42",
+    "title": "paper 28: Role of Withaferin A and Its Derivatives in the Management of Alzheimer’s Disease Recent Trends and Future Perspectives",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -2565,13 +2565,13 @@ export const PAPERS = [
   },
   {
     "id": "2_71_13",
-    "title": "Paper 2_71_13",
+    "title": "paper 29: Pathogenesis of Alzheimer’s Disease",
     "refined_relations": [],
     "biomarkers": []
   },
   {
     "id": "3_99_45",
-    "title": "Paper 3_99_45",
+    "title": "paper 30: NMDA and AMPA receptors dysregulation in Alzheimer's disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -2678,7 +2678,7 @@ export const PAPERS = [
   },
   {
     "id": "0_49_1053",
-    "title": "Paper 0_49_1053",
+    "title": "paper 31: Metformin in Alzheimer’s disease_ An overview of potential mechanisms, preclinical and clinical findings",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -2920,7 +2920,7 @@ export const PAPERS = [
   },
   {
     "id": "3_33_34",
-    "title": "Paper 3_33_34",
+    "title": "paper 32: The NLRP3 inflammasome triggers sterile neuroinflammation and Alzheimers disease",
     "refined_relations": [
       {
         "cause": {
@@ -3094,7 +3094,7 @@ export const PAPERS = [
   },
   {
     "id": "3_14_25",
-    "title": "Paper 3_14_25",
+    "title": "paper 33: The essential elements of Alzheimer’s disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -3116,7 +3116,7 @@ export const PAPERS = [
   },
   {
     "id": "2_75_2",
-    "title": "Paper 2_75_2",
+    "title": "paper 34: Calcium Dyshomeostasis in Alzheimer’s Disease Pathogenesis",
     "refined_relations": [
       {
         "cause": {
@@ -3255,7 +3255,7 @@ export const PAPERS = [
   },
   {
     "id": "2_40_52",
-    "title": "Paper 2_40_52",
+    "title": "paper 35: The probabilistic model of Alzheimer disease the amyloid hypothesis revised",
     "refined_relations": [
       {
         "cause": {
@@ -3291,7 +3291,7 @@ export const PAPERS = [
   },
   {
     "id": "3_39_14",
-    "title": "Paper 3_39_14",
+    "title": "paper 36: Tau-targeting antisense oligonucleotide MAPTRx in mild Alzheimer’s disease a phase 1b, randomized, placebo-controlled trial",
     "refined_relations": [
       {
         "cause": {
@@ -3847,7 +3847,7 @@ export const PAPERS = [
   },
   {
     "id": "0_51_14",
-    "title": "Paper 0_51_14",
+    "title": "paper 37: Alzheimer s   Dementia - 2021 - Simrén - The diagnostic and prognostic capabilities of plasma biomarkers in Alzheimer s",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -3864,7 +3864,7 @@ export const PAPERS = [
   },
   {
     "id": "0_52_862",
-    "title": "Paper 0_52_862",
+    "title": "paper 38: Journal of Neurochemistry - 2021 - Kumar - Reactive astrogliosis  A friend or foe in the pathogenesis of Alzheimer s",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -3881,7 +3881,7 @@ export const PAPERS = [
   },
   {
     "id": "0_37_40",
-    "title": "Paper 0_37_40",
+    "title": "paper 39: Blood phospho-tau in Alzheimer disease analysis, interpretation, and clinical utility",
     "refined_relations": [
       {
         "cause": {
@@ -3992,7 +3992,7 @@ export const PAPERS = [
   },
   {
     "id": "3_58_18",
-    "title": "Paper 3_58_18",
+    "title": "paper 40: Amyloidosis in Alzheimer’s Disease Pathogeny, Etiology, and Related Therapeutic Directions",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4029,13 +4029,13 @@ export const PAPERS = [
   },
   {
     "id": "1_79_10",
-    "title": "Paper 1_79_10",
+    "title": "paper 41: New insights into the genetic etiology of Alzheimer’s disease and related dementias",
     "refined_relations": [],
     "biomarkers": []
   },
   {
     "id": "2_70_55",
-    "title": "Paper 2_70_55",
+    "title": "paper 42: Toward noninvasive brain stimulation 2.0 in Alzheimerâ&#x80;&#x99;s disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4052,7 +4052,7 @@ export const PAPERS = [
   },
   {
     "id": "3_87_31",
-    "title": "Paper 3_87_31",
+    "title": "paper 43: Toward noninvasive brain stimulation 2.0 in Alzheimerâ&#x80;&#x99;s disease",
     "refined_relations": [
       {
         "cause": {
@@ -4093,7 +4093,7 @@ export const PAPERS = [
   },
   {
     "id": "2_62_12",
-    "title": "Paper 2_62_12",
+    "title": "paper 44: Alzheimer’s disease – the journey of a healthy brain into organ failure",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4115,7 +4115,7 @@ export const PAPERS = [
   },
   {
     "id": "3_75_5",
-    "title": "Paper 3_75_5",
+    "title": "paper 45: Journal of Neurochemistry - 2021 - Jakaria - Ferroptosis as a mechanism of neurodegeneration in Alzheimer s disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4162,7 +4162,7 @@ export const PAPERS = [
   },
   {
     "id": "2_2_8",
-    "title": "Paper 2_2_8",
+    "title": "paper 46: The impact of the microbiota-gut-brain axis on AlzheimerÃ¢Â&#x80;Â&#x99;s disease pathophysiology",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4179,7 +4179,7 @@ export const PAPERS = [
   },
   {
     "id": "3_27_44",
-    "title": "Paper 3_27_44",
+    "title": "paper 47: Amyloid-associated increases in soluble tau relate to tau aggregation rates and cognitive decline in early Alzheimer’s disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4206,7 +4206,7 @@ export const PAPERS = [
   },
   {
     "id": "0_49_30",
-    "title": "Paper 0_49_30",
+    "title": "paper 48: Anti-Amyloid Immunotherapies for Alzheimer's Disease_ A 2023 Clinical Update",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4248,7 +4248,7 @@ export const PAPERS = [
   },
   {
     "id": "2_37_0",
-    "title": "Paper 2_37_0",
+    "title": "paper 49: Alzheimer's disease associated with Down syndrome_ a genetic form of dementia",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4270,7 +4270,7 @@ export const PAPERS = [
   },
   {
     "id": "1_58_61",
-    "title": "Paper 1_58_61",
+    "title": "paper 50: Advances in the development of new biomarkers for Alzheimer’s disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4297,7 +4297,7 @@ export const PAPERS = [
   },
   {
     "id": "3_50_44",
-    "title": "Paper 3_50_44",
+    "title": "paper 51: Recent advances on drug development and emerging therapeutic agents for Alzheimer’s disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4324,13 +4324,13 @@ export const PAPERS = [
   },
   {
     "id": "1_5_9",
-    "title": "Paper 1_5_9",
+    "title": "paper 52: A global view of the genetic basis of Alzheimer disease",
     "refined_relations": [],
     "biomarkers": []
   },
   {
     "id": "2_65_15",
-    "title": "Paper 2_65_15",
+    "title": "paper 53: The promise of microRNA-based therapies in Alzheimer’s disease challenges and perspectives",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4347,7 +4347,7 @@ export const PAPERS = [
   },
   {
     "id": "0_4_32",
-    "title": "Paper 0_4_32",
+    "title": "paper 54: Epigenetics of Alzheimer’s Disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4374,7 +4374,7 @@ export const PAPERS = [
   },
   {
     "id": "0_2_39",
-    "title": "Paper 0_2_39",
+    "title": "paper 55: Astrocyte biomarker signatures of amyloid-β and tau pathologies in Alzheimer’s disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4386,7 +4386,7 @@ export const PAPERS = [
   },
   {
     "id": "3_64_17",
-    "title": "Paper 3_64_17",
+    "title": "paper 56: Blood-based biomarkers for Alzheimer’s disease",
     "refined_relations": [
       {
         "cause": {
@@ -4530,7 +4530,7 @@ export const PAPERS = [
   },
   {
     "id": "0_49_724",
-    "title": "Paper 0_49_724",
+    "title": "paper 57: Developing the ATX(N) classification for use across the Alzheimer disease continuum",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4557,7 +4557,7 @@ export const PAPERS = [
   },
   {
     "id": "2_4_6",
-    "title": "Paper 2_4_6",
+    "title": "paper 58: Molecular subtyping of Alzheimer’s disease using RNA sequencing data reveals novel mechanisms and targets",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4579,7 +4579,7 @@ export const PAPERS = [
   },
   {
     "id": "2_54_14",
-    "title": "Paper 2_54_14",
+    "title": "paper 59: Biomarkers for Alzheimer’s disease—preparing for a new era of disease-modifying therapies",
     "refined_relations": [
       {
         "cause": {
@@ -4646,7 +4646,7 @@ export const PAPERS = [
   },
   {
     "id": "2_14_20",
-    "title": "Paper 2_14_20",
+    "title": "paper 60: Cerebral blood flow in mild cognitive impairment and Alzheimerâ&#x80;&#x99;s disease_ A systematic review and meta-analysis",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4663,7 +4663,7 @@ export const PAPERS = [
   },
   {
     "id": "2_39_2",
-    "title": "Paper 2_39_2",
+    "title": "paper 61: White matter hyperintensity topography in Alzheimer's disease and links to cognition",
     "refined_relations": [
       {
         "cause": {
@@ -4750,7 +4750,7 @@ export const PAPERS = [
   },
   {
     "id": "2_93_17",
-    "title": "Paper 2_93_17",
+    "title": "paper 62: Neuroinflammation in Alzheimer’s Disease Current Progress in Molecular Signaling and Therapeutics",
     "refined_relations": [
       {
         "cause": {
@@ -4799,13 +4799,13 @@ export const PAPERS = [
   },
   {
     "id": "3_55_45",
-    "title": "Paper 3_55_45",
+    "title": "paper 63: Enhancing autophagy in Alzheimer's disease through drug repositioning",
     "refined_relations": [],
     "biomarkers": []
   },
   {
     "id": "3_98_29",
-    "title": "Paper 3_98_29",
+    "title": "paper 64: Role of Monoamine Oxidase Activity in Alzheimer’s Disease An Insight into the Therapeutic Potential of Inhibitors",
     "refined_relations": [
       {
         "cause": {
@@ -4836,7 +4836,7 @@ export const PAPERS = [
   },
   {
     "id": "1_43_23",
-    "title": "Paper 1_43_23",
+    "title": "paper 65: Alzheimer’s Disease Epidemiology and Clinical Progression",
     "refined_relations": [
       {
         "cause": {
@@ -4903,7 +4903,7 @@ export const PAPERS = [
   },
   {
     "id": "3_65_26",
-    "title": "Paper 3_65_26",
+    "title": "paper 66: Intranasal Insulin for Alzheimer’s Disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4930,7 +4930,7 @@ export const PAPERS = [
   },
   {
     "id": "0_54_118",
-    "title": "Paper 0_54_118",
+    "title": "paper 67: Deciphering the Roles of Metformin in Alzheimer’s Disease A Snapshot",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4957,7 +4957,7 @@ export const PAPERS = [
   },
   {
     "id": "1_70_36",
-    "title": "Paper 1_70_36",
+    "title": "paper 68: Alzheimer’s Disease as Type 3 Diabetes Common Pathophysiological Mechanisms between Alzheimer’s Disease and Type 2 Diabetes",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4969,7 +4969,7 @@ export const PAPERS = [
   },
   {
     "id": "2_73_34",
-    "title": "Paper 2_73_34",
+    "title": "paper 69: INPP5D expression is associated with risk for Alzheimer's disease and induced by plaque-associated microglia",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -4991,7 +4991,7 @@ export const PAPERS = [
   },
   {
     "id": "3_88_54",
-    "title": "Paper 3_88_54",
+    "title": "paper 70: Association of APOE4 and Clinical Variability in Alzheimer Disease With the Pattern of Tau- and Amyloid-PET",
     "refined_relations": [
       {
         "cause": {
@@ -5040,7 +5040,7 @@ export const PAPERS = [
   },
   {
     "id": "3_2_10",
-    "title": "Paper 3_2_10",
+    "title": "paper 71: Blood-based biomarkers for Alzheimer's disease_ towards clinical implementation",
     "refined_relations": [
       {
         "cause": {
@@ -5071,7 +5071,7 @@ export const PAPERS = [
   },
   {
     "id": "3_99_43",
-    "title": "Paper 3_99_43",
+    "title": "paper 72: Altered Gut Microbial Metabolites in Amnestic Mild Cognitive Impairment and Alzheimer’s Disease Signals in Host–Microbe Interplay",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5098,7 +5098,7 @@ export const PAPERS = [
   },
   {
     "id": "2_9_64",
-    "title": "Paper 2_9_64",
+    "title": "paper 73: Neuronal excitation_inhibition imbalance_ core element of a translational perspective on Alzheimer pathophysiology",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5220,7 +5220,7 @@ export const PAPERS = [
   },
   {
     "id": "3_22_38",
-    "title": "Paper 3_22_38",
+    "title": "paper 74: Decreased pH in the aging brain and Alzheimer's disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5242,7 +5242,7 @@ export const PAPERS = [
   },
   {
     "id": "1_99_33",
-    "title": "Paper 1_99_33",
+    "title": "paper 75: The neuroimmune axis of Alzheimer’s disease",
     "refined_relations": [
       {
         "cause": {
@@ -5291,7 +5291,7 @@ export const PAPERS = [
   },
   {
     "id": "0_17_15",
-    "title": "Paper 0_17_15",
+    "title": "paper 76: APOE Genotype and Alzheimer’s Disease The Influence of Lifestyle and Environmental Factors",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5318,7 +5318,7 @@ export const PAPERS = [
   },
   {
     "id": "1_22_47",
-    "title": "Paper 1_22_47",
+    "title": "paper 77: ER stress and UPR in Alzheimer’s disease mechanisms, pathogenesis, treatments",
     "refined_relations": [
       {
         "cause": {
@@ -5385,7 +5385,7 @@ export const PAPERS = [
   },
   {
     "id": "0_52_215",
-    "title": "Paper 0_52_215",
+    "title": "paper 78: Effects of pre-analytical procedures on blood biomarkers for Alzheimer's pathophysiology, glial activation, and neurodegeneration",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5412,7 +5412,7 @@ export const PAPERS = [
   },
   {
     "id": "1_24_11",
-    "title": "Paper 1_24_11",
+    "title": "paper 79: Neuropathology of Alzheimer's Disease",
     "refined_relations": [
       {
         "cause": {
@@ -5461,7 +5461,7 @@ export const PAPERS = [
   },
   {
     "id": "0_49_833",
-    "title": "Paper 0_49_833",
+    "title": "paper 80: Apoptosis in Alzheimer’s disease insight into the signaling pathways and therapeutic avenues",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5488,13 +5488,13 @@ export const PAPERS = [
   },
   {
     "id": "1_20_7",
-    "title": "Paper 1_20_7",
+    "title": "paper 81: Oxidative Stress and Beta Amyloid in Alzheimer’s Disease. Which Comes First The Chicken or the Egg",
     "refined_relations": [],
     "biomarkers": []
   },
   {
     "id": "3_55_3",
-    "title": "Paper 3_55_3",
+    "title": "paper 82: Insulin Resistance and Diabetes Mellitus in Alzheimer’s Disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5516,7 +5516,7 @@ export const PAPERS = [
   },
   {
     "id": "3_85_47",
-    "title": "Paper 3_85_47",
+    "title": "paper 83: Alzheimer's disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5533,7 +5533,7 @@ export const PAPERS = [
   },
   {
     "id": "2_36_1",
-    "title": "Paper 2_36_1",
+    "title": "paper 84: The gut microbiome in Alzheimer’s disease what we know and what remains to be explored",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5560,7 +5560,7 @@ export const PAPERS = [
   },
   {
     "id": "0_52_482",
-    "title": "Paper 0_52_482",
+    "title": "paper 85: Efficacy of acetylcholinesterase inhibitors in Alzheimer's disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5587,7 +5587,7 @@ export const PAPERS = [
   },
   {
     "id": "1_8_25",
-    "title": "Paper 1_8_25",
+    "title": "paper 86: Alzheimer’s Disease An Updated Overview of Its Genetics",
     "refined_relations": [
       {
         "cause": {
@@ -5672,7 +5672,7 @@ export const PAPERS = [
   },
   {
     "id": "0_31_47",
-    "title": "Paper 0_31_47",
+    "title": "paper 87: Mouse Models of Alzheimer’s Disease",
     "refined_relations": [
       {
         "cause": {
@@ -5744,7 +5744,7 @@ export const PAPERS = [
   },
   {
     "id": "2_6_26",
-    "title": "Paper 2_6_26",
+    "title": "paper 88: Hypertension-induced cognitive impairment from pathophysiology to public health",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5771,7 +5771,7 @@ export const PAPERS = [
   },
   {
     "id": "1_31_14",
-    "title": "Paper 1_31_14",
+    "title": "paper 89: Regional A&beta;-tau interactions promote onset and acceleration of Alzheimer's disease tau spreading",
     "refined_relations": [
       {
         "cause": {
@@ -5861,7 +5861,7 @@ export const PAPERS = [
   },
   {
     "id": "0_44_4",
-    "title": "Paper 0_44_4",
+    "title": "paper 90: Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer’s Disease",
     "refined_relations": [
       {
         "cause": {
@@ -5892,7 +5892,7 @@ export const PAPERS = [
   },
   {
     "id": "0_52_203",
-    "title": "Paper 0_52_203",
+    "title": "paper 91: Plasma Tau and Neurofilament Light in Frontotemporal Lobar Degeneration and Alzheimer Disease",
     "refined_relations": [],
     "biomarkers": [
       {
@@ -5919,7 +5919,7 @@ export const PAPERS = [
   },
   {
     "id": "0_76_52",
-    "title": "Paper 0_76_52",
+    "title": "paper 92: Mitochondrial Dysfunction as a Driver of Cognitive Impairment in Alzheimer’s Disease",
     "refined_relations": [
       {
         "cause": {
@@ -5981,7 +5981,7 @@ export const PAPERS = [
   },
   {
     "id": "1_83_12",
-    "title": "Paper 1_83_12",
+    "title": "paper 93: Type 2 Diabetes Mellitus as a Risk Factor for Alzheimer’s Disease Review and Meta-Analysis",
     "refined_relations": [
       {
         "cause": {
@@ -6231,7 +6231,7 @@ export const PAPERS = [
   },
   {
     "id": "3_49_45",
-    "title": "Paper 3_49_45",
+    "title": "paper 94: Distinct amyloid-β and tau-associated microglia profiles in Alzheimer’s disease",
     "refined_relations": [
       {
         "cause": {
@@ -6300,7 +6300,7 @@ export const PAPERS = [
   },
   {
     "id": "3_49_72",
-    "title": "Paper 3_49_72",
+    "title": "paper 95: Lecanemab in patients with early Alzheimer’s disease detailed results on biomarker, cognitive, and clinical effects from the randomized and open-label extension of the phase 2 proof-of-concept study",
     "refined_relations": [
       {
         "cause": {
@@ -6367,7 +6367,7 @@ export const PAPERS = [
   },
   {
     "id": "2_18_27",
-    "title": "Paper 2_18_27",
+    "title": "paper 96: Super-resolution microscopy a closer look at synaptic dysfunction in Alzheimer disease",
     "refined_relations": [
       {
         "cause": {
@@ -6439,13 +6439,13 @@ export const PAPERS = [
   },
   {
     "id": "2_80_37",
-    "title": "Paper 2_80_37",
+    "title": "paper 97: Multi-platform proteomic analysis of Alzheimer’s disease cerebrospinal fluid and plasma reveals network biomarkers associated with proteostasis and the matrisome",
     "refined_relations": [],
     "biomarkers": []
   },
   {
     "id": "0_34_21",
-    "title": "Paper 0_34_21",
+    "title": "paper 98: Astrocyte energy and neurotransmitter metabolism in Alzheimer’s disease_ Integration of the glutamate_GABA-glutamine cycle",
     "refined_relations": [
       {
         "cause": {
@@ -6476,7 +6476,7 @@ export const PAPERS = [
   },
   {
     "id": "2_9_32",
-    "title": "Paper 2_9_32",
+    "title": "paper 99: Imaging Techniques in Alzheimer’s Disease A Review of Applications in Early Diagnosis and Longitudinal Monitoring",
     "refined_relations": [
       {
         "cause": {
@@ -6594,7 +6594,7 @@ export const PAPERS = [
   },
   {
     "id": "0_38_5",
-    "title": "Paper 0_38_5",
+    "title": "paper 100: Resting state EEG biomarkers of cognitive decline associated with Alzheimer’s disease and mild cognitive impairment",
     "refined_relations": [],
     "biomarkers": [
       {

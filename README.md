@@ -1,5 +1,6 @@
 0. `npm install react vis-network`
 1. run the `convert_json_to_js.py` to convert the model prediction result (json file) into a data.js file
+   if wanna show paper with the name, then further run `replace_paper_id.py` to replace abstractive paper id (such as paper_0_1) with the real paper name.
    meanwhile, convert the token-level logprob into entity-level prob
    i.e., P("entity") = exp( Σ_i logprob(t_i) )
    
@@ -11,7 +12,7 @@
 cd my-graph-demo
 npm start
 ```
-4. Similar for the other sites, such as homepage and csf-models, just go to the folder and run `npm start`.
+1. Similar for the other sites, such as homepage and csf-models, just go to the folder and run `npm start`.
 
 
 11/12 update:

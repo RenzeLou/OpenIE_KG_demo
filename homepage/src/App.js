@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import Xarrow, { Xwrapper } from "react-xarrows";
 
-const openInNewTab = (url) => {
-  window.open(url, "_blank", "noopener,noreferrer");
-};
+const openInNewTab = (url) => window.open(url, "_blank", "noopener,noreferrer");
 
 export default function App() {
   const [loading, setLoading] = useState(false);
@@ -17,28 +16,26 @@ export default function App() {
     border: "none",
     borderRadius: "6px",
     cursor: "pointer",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
   };
 
   const simulateLoadingAndRedirect = () => {
     setLoading(true);
     setProgress(0);
-    const duration = 3000; // 3秒（可自行调整）
+    const duration = 3000;
     const steps = 30;
     const stepTime = duration / steps;
     let current = 0;
-
-    const interval = setInterval(() => {
-      current++;
+    const timer = setInterval(() => {
+      current += 1;
       setProgress(Math.min(100, Math.round((current / steps) * 100)));
-
       if (current >= steps) {
-        clearInterval(interval);
+        clearInterval(timer);
         setTimeout(() => {
           openInNewTab("http://localhost:3000/");
           setLoading(false);
           setProgress(0);
-        }, 200);
+        }, 150);
       }
     }, stepTime);
   };
@@ -50,59 +47,63 @@ export default function App() {
     backgroundRepeat: "no-repeat",
   };
 
+  // refs for arrows
+  const refCausal = useRef(null);
+  const refCSF = useRef(null);
+  const refPET = useRef(null);
+  const refPersonal = useRef(null);
+
   return (
     <div
       style={{
         ...baseBg,
         display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
         justifyContent: "center",
+        alignItems: "center",
         height: "100vh",
-        gap: "24px",
+        flexDirection: "column",
+        gap: "60px",
       }}
     >
-            {/* 顶部标题 */}
       {!loading && (
         <h1
           style={{
-            position: "absolute",       // 👈 固定定位
-            top: "40px",                // 👈 距离窗口顶部 40 px
+            position: "absolute",
+            top: "10px",
             left: "50%",
-            transform: "translateX(-50%)", // 居中
+            transform: "translateX(-50%)",
             fontSize: "32px",
             fontWeight: "bold",
             color: "#000",
-            textAlign: "center",
             backgroundColor: "rgba(230,242,255,0.8)",
             padding: "10px 30px",
             borderRadius: "8px",
             boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
-            zIndex: 1000,               // 保证在最上层
+            zIndex: 5,
           }}
         >
-          Alzheimer's  Digital  Twin  Project
+          Alzheimer's Digital Twin Project
         </h1>
       )}
+
       {loading ? (
         <>
           <div
             style={{
-              fontSize: "20px",
+              fontSize: 20,
               fontWeight: "bold",
-              color: "#060000ff",
-              marginBottom: "12px",
-              textShadow: "1px 1px 3px #f2ebebff",
+              color: "#050",
+              marginBottom: 12,
             }}
           >
             Analyzing research papers, extracting biomarker graphs...
           </div>
           <div
             style={{
-              width: "320px",
-              height: "20px",
+              width: 320,
+              height: 20,
               border: "1px solid #ccc",
-              borderRadius: "10px",
+              borderRadius: 10,
               overflow: "hidden",
               backgroundColor: "rgba(255,255,255,0.8)",
               boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
@@ -117,48 +118,88 @@ export default function App() {
               }}
             />
           </div>
-          <div
-            style={{
-              marginTop: 8,
-              color: "#0c0c0cff",
-              fontSize: "16px",
-              textShadow: "1px 1px 2px #f1ebebff",
-            }}
-          >
-            {progress}%
-          </div>
+          <div style={{ marginTop: 8 }}>{progress}%</div>
         </>
       ) : (
-        <>
-          <button
-            style={{ ...buttonStyle, backgroundColor: "#1d70f7" }}
-            onClick={simulateLoadingAndRedirect}
-          >
-            Causal Network Construction
-          </button>
-
-          <div style={{ display: "flex", gap: "40px" }}>
+        <Xwrapper>
+          {/* 第一行 */}
+          <div id="causalBox" ref={refCausal}>
             <button
-              style={{ ...buttonStyle, backgroundColor: "#28a745" }}
-              onClick={() => openInNewTab("http://localhost:4000/")}
+              style={{ ...buttonStyle, backgroundColor: "#1d70f7" }}
+              onClick={simulateLoadingAndRedirect}
             >
-              CSF Model
-            </button>
-            <button
-              style={{ ...buttonStyle, backgroundColor: "#ff8c00" }}
-              onClick={() => openInNewTab("http://localhost:5000/")}
-            >
-              PET Images
+              Causal Network Construction
             </button>
           </div>
 
-          <button
-            style={{ ...buttonStyle, backgroundColor: "#800080" }}
-            onClick={() => openInNewTab("http://localhost:6000/")}
-          >
-            Personalized Dosing Regimens
-          </button>
-        </>
+          {/* 第二行 */}
+          <div style={{ display: "flex", gap: "120px", marginTop: 60 }}>
+            <div id="csfBox" ref={refCSF}>
+              <button
+                style={{ ...buttonStyle, backgroundColor: "#28a745" }}
+                onClick={() => openInNewTab("http://localhost:4000/")}
+              >
+                CSF Model
+              </button>
+            </div>
+            <div id="petBox" ref={refPET}>
+              <button
+                style={{ ...buttonStyle, backgroundColor: "#ff8c00" }}
+                onClick={() => openInNewTab("http://localhost:5000/")}
+              >
+                PET Images
+              </button>
+            </div>
+          </div>
+
+          {/* 第三行 */}
+          <div style={{ marginTop: 70 }} id="persBox" ref={refPersonal}>
+            <button
+              style={{ ...buttonStyle, backgroundColor: "#800080" }}
+              onClick={() => openInNewTab("http://localhost:6000/")}
+            >
+              Personalized Dosing Regimens
+            </button>
+          </div>
+
+          {/* 箭头 */}
+          <Xarrow
+            start={refCausal}
+            end={refCSF}
+            startAnchor="bottom"
+            endAnchor="top"
+            curveness={0.7}
+            color="#444"
+            showHead
+          />
+          <Xarrow
+            start={refCausal}
+            end={refPET}
+            startAnchor="bottom"
+            endAnchor="top"
+            curveness={0.7}
+            color="#444"
+            showHead
+          />
+          <Xarrow
+            start={refCSF}
+            end={refPersonal}
+            startAnchor="bottom"
+            endAnchor="top"
+            curveness={0.5}
+            color="#444"
+            showHead
+          />
+          <Xarrow
+            start={refPET}
+            end={refPersonal}
+            startAnchor="bottom"
+            endAnchor="top"
+            curveness={0.5}
+            color="#444"
+            showHead
+          />
+        </Xwrapper>
       )}
     </div>
   );
