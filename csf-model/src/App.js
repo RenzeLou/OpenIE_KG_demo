@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function App() {
-    const header = (
+  const header = (
     <div
       style={{
         backgroundColor: "#e6f2ff",
@@ -17,6 +17,7 @@ export default function App() {
       CSF Model Deployment Platform
     </div>
   );
+
   const [phase, setPhase] = useState("home"); // home | training | alert | test
   const [progress, setProgress] = useState(0);
   const [terminalLogs, setTerminalLogs] = useState([]);
@@ -24,6 +25,11 @@ export default function App() {
   const [selectedPatient, setSelectedPatient] = useState(null);
   const [predicting, setPredicting] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
+
+  // new states for load data
+  const [loadingData, setLoadingData] = useState(false);
+  const [loadProgress, setLoadProgress] = useState(0);
+  const [dataLoaded, setDataLoaded] = useState(false);
 
   /* ---------- start training simulation ---------- */
   const startTraining = () => {
@@ -39,7 +45,7 @@ export default function App() {
     let currentStep = 0;
 
     const getLoss = (step) => {
-      const base = 8 - (7.8 * step) / totalSteps; // 从8降到0.2左右
+      const base = 8 - (7.8 * step) / totalSteps; // 从8降到0.2
       return (base + (Math.random() - 0.5) * 0.3).toFixed(2);
     };
     const getAcc = (step) => {
@@ -57,7 +63,6 @@ export default function App() {
       ]);
       currentStep++;
       setProgress(Math.round((currentStep / totalSteps) * 100));
-
       if (currentStep >= totalSteps) {
         clearInterval(interval);
         setTimeout(() => setPhase("alert"), 500);
@@ -87,7 +92,28 @@ export default function App() {
     }, stepTime);
   };
 
-  /* ---------- components ---------- */
+  // ---------- simulate loading data ----------
+  const handleLoadData = () => {
+    setLoadingData(true);
+    setDataLoaded(false);
+    setLoadProgress(0);
+    const duration = 1500;
+    const steps = 30;
+    const stepTime = duration / steps;
+    let current = 0;
+    const interval = setInterval(() => {
+      current++;
+      setLoadProgress(Math.round((current / steps) * 100));
+      if (current >= steps) {
+        clearInterval(interval);
+        setTimeout(() => {
+          setLoadingData(false);
+          setDataLoaded(true);
+          setLoadProgress(100);
+        }, 100);
+      }
+    }, stepTime);
+  };
 
   const baseBgStyle = {
     backgroundImage: "url('./bg.png')",
@@ -96,6 +122,7 @@ export default function App() {
     backgroundRepeat: "no-repeat",
   };
 
+  /* ---------- home screen ---------- */
   const renderHome = () => (
     <div
       style={{
@@ -105,9 +132,87 @@ export default function App() {
         alignItems: "center",
         justifyContent: "center",
         height: "100vh",
-        gap: "30px",
+        gap: "28px",
       }}
     >
+      {/* Load Data */}
+      <div style={{ marginBottom: "50px", textAlign: "center" }}>
+        <button
+          onClick={handleLoadData}
+          disabled={loadingData}
+          style={{
+            width: 260,
+            height: 68,
+            backgroundColor: "#ff8c00",
+            color: "#fff",
+            borderRadius: "50px",
+            border: "none",
+            cursor: "pointer",
+            fontSize: 20,
+            fontWeight: "bold",
+            boxShadow: "0 4px 10px rgba(0,0,0,0.15)",
+          }}
+        >
+          {loadingData ? "Loading..." : "Load CSF Data"}
+        </button>
+
+        {/* progress bar */}
+        {loadingData && (
+          <div
+            style={{
+              margin: "14px auto",
+              width: "260px",
+              height: "14px",
+              border: "1px solid #ccc",
+              borderRadius: "8px",
+              overflow: "hidden",
+              background: "#fafafa",
+            }}
+          >
+            <div
+              style={{
+                width: `${loadProgress}%`,
+                height: "100%",
+                background: "#ff8c00",
+                transition: "width 0.1s linear",
+              }}
+            ></div>
+          </div>
+        )}
+
+       {/* success text */}
+{dataLoaded && !loadingData && (
+  <div
+    style={{
+      marginTop: "16px",
+      backgroundColor: "rgba(240,240,240,0.9)",
+      border: "1px solid #ddd",
+      borderRadius: "8px",
+      padding: "10px 14px",
+      color: "#222",
+      fontSize: "15px",
+      maxWidth: "480px",
+      textAlign: "center",
+      boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
+    }}
+  >
+    ✅ Successfully uploaded CSF training data from <br />
+    <pre
+      style={{
+        display: "inline-block",
+        backgroundColor: "#2d2d2d",
+        color: "#00ff99",
+        padding: "6px 10px",
+        borderRadius: "6px",
+        fontFamily: "Consolas, monospace",
+        marginTop: "6px",
+      }}
+    >{`~/Desktop/OpenIE biomarker/csf_data.csv`}</pre>
+  </div>
+)}
+      </div>
+
+      {/* Train/Test Buttons */}
       <button
         style={{
           width: 220,
@@ -147,6 +252,7 @@ export default function App() {
     </div>
   );
 
+  /* ---------- training screen ---------- */
   const renderTraining = () => (
     <div
       style={{
@@ -158,9 +264,7 @@ export default function App() {
         height: "100vh",
       }}
     >
-      <h2 style={{ color: "#080808ff"}}>
-        Training CSF Model...
-      </h2>
+      <h2 style={{ color: "#080808ff" }}>Training CSF Model...</h2>
       <div
         style={{
           width: "80%",
@@ -202,6 +306,7 @@ export default function App() {
     </div>
   );
 
+  /* ---------- alert screen ---------- */
   const renderAlert = () => (
     <div
       style={{
@@ -238,9 +343,9 @@ export default function App() {
     </div>
   );
 
+  /* ---------- test screen ---------- */
   const renderTest = () => (
     <div style={{ display: "flex", height: "100vh", ...baseBgStyle }}>
-      {/* 左侧患者列表 */}
       <div
         style={{
           flex: "0 0 200px",
@@ -274,7 +379,6 @@ export default function App() {
         })}
       </div>
 
-      {/* 右侧预测区域 */}
       <div
         style={{
           flex: 1,
@@ -344,7 +448,7 @@ export default function App() {
   );
 
   /* ---------- render switch ---------- */
-    switch (phase) {
+  switch (phase) {
     case "training":
       return (
         <>
