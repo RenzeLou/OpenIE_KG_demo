@@ -355,7 +355,7 @@ export default function App() {
             start={refDigital}
             end={refPersonal}
             startAnchor="bottom"
-            endAnchor="top"
+            endAnchor="right"
             curveness={0.6}
             color="#444"
             headSize={4}
