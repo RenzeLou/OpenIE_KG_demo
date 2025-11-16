@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import Xarrow, { Xwrapper } from "react-xarrows";
 
 const openInNewTab = (url) => window.open(url, "_blank", "noopener,noreferrer");
@@ -19,6 +19,7 @@ export default function App() {
     boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
   };
 
+  // 点击 Causal Network 时的加载
   const simulateLoadingAndRedirect = () => {
     setLoading(true);
     setProgress(0);
@@ -47,9 +48,11 @@ export default function App() {
     backgroundRepeat: "no-repeat",
   };
 
-  // refs for arrows
-  const refCausal = useRef(null);
+  // refs for arrows and layout components
+  const refPhysical = useRef(null);
+  const refDigital = useRef(null);
   const refCSF = useRef(null);
+  const refCausal = useRef(null);
   const refPET = useRef(null);
   const refPersonal = useRef(null);
 
@@ -62,14 +65,14 @@ export default function App() {
         alignItems: "center",
         height: "100vh",
         flexDirection: "column",
-        gap: "60px",
+        paddingTop: "50px",   // 整体下移约50px
       }}
     >
       {!loading && (
         <h1
           style={{
             position: "absolute",
-            top: "10px",
+            top: "1px",
             left: "50%",
             transform: "translateX(-50%)",
             fontSize: "32px",
@@ -122,82 +125,251 @@ export default function App() {
         </>
       ) : (
         <Xwrapper>
-          {/* 第一行 */}
-          <div id="causalBox" ref={refCausal}>
-            <button
-              style={{ ...buttonStyle, backgroundColor: "#1d70f7" }}
-              onClick={simulateLoadingAndRedirect}
+          {/* 整体水平布局 */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "140px",
+              marginBottom: "100px",
+            }}
+          >
+            {/* 左侧 Physical Twin */}
+            <div
+              ref={refPhysical}
+              id="physicalTwin"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "25px",          // 给箭头一点外沿空间
+                borderRadius: "12px",
+                background: "rgba(255,255,255,0.0)",
+              }}
             >
-              Causal Network Construction
-            </button>
+              {/* <img
+                src="./physical_twin.png"
+                alt="Physical Twin"
+                style={{
+                  width: 160,
+                  height: "auto",
+                  borderRadius: "10px",
+                  border: "2px solid #c00",
+                  boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+                }}
+              /> */}
+              <img
+                src="./physical_twin.png"
+                alt="Physical Twin"
+                onLoad={() => window.dispatchEvent(new Event("resize"))}
+                style={{
+                  width: 160,
+                  height: "auto",
+                  borderRadius: "10px",
+                  border: "2px solid #c00",
+                  boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+                  display: "block",
+                }}
+              />
+            </div>
+
+            {/* 中间垂直四个按钮 */}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: "45px",
+              }}
+            >
+              <div ref={refCSF} id="csf">
+                <button
+                  style={{ ...buttonStyle, backgroundColor: "#28a745" }}
+                  onClick={() => openInNewTab("http://localhost:4000/")}
+                >
+                  CSF Model
+                </button>
+              </div>
+
+              <div ref={refCausal} id="causal">
+                <button
+                  style={{ ...buttonStyle, backgroundColor: "#1d70f7" }}
+                  onClick={simulateLoadingAndRedirect}
+                >
+                  Causal Network Construction
+                </button>
+              </div>
+
+              <div ref={refPET} id="pet">
+                <button
+                  style={{ ...buttonStyle, backgroundColor: "#ff8c00" }}
+                  onClick={() => openInNewTab("http://localhost:5001/")}
+                >
+                  PET Images
+                </button>
+              </div>
+            </div>
+
+            {/* 右侧 Digital Twin */}
+            <div
+              ref={refDigital}
+              id="digitalTwin"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "25px",          // 同理添加 padding
+                borderRadius: "12px",
+                background: "rgba(255,255,255,0.0)",
+              }}
+            >
+              <img
+                src="./digital_twin.png"
+                alt="AI‑Driven Digital Twin"
+                style={{
+                  width: 200,
+                  height: "auto",
+                  borderRadius: "10px",
+                  border: "2px solid #6038a1",
+                  boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+                }}
+              />
+              
+                {/* <img
+                  src="./digital_twin.png"
+                  alt="AI‑Driven Digital Twin"
+                  onLoad={() => window.dispatchEvent(new Event("resize"))}
+                  style={{
+                    width: 200,
+                    height: "auto",
+                    borderRadius: "10px",
+                    border: "2px solid #6038a1",
+                    boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+                    display: "block",
+                  }}
+                /> */}
+
+            </div>
           </div>
 
-          {/* 第二行 */}
-          <div style={{ display: "flex", gap: "120px", marginTop: 60 }}>
-            <div id="csfBox" ref={refCSF}>
+          {/* Personalized Dosing 在下方 */}
+          <div
+            style={{
+              marginTop: "30px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div ref={refPersonal} id="personal">
               <button
-                style={{ ...buttonStyle, backgroundColor: "#28a745" }}
-                onClick={() => openInNewTab("http://localhost:4000/")}
+                style={{ ...buttonStyle, backgroundColor: "#800080" }}
+                onClick={() => openInNewTab("http://localhost:6000/")}
               >
-                CSF Model
+                Personalized Dosing Regimens
               </button>
             </div>
-            <div id="petBox" ref={refPET}>
-              <button
-                style={{ ...buttonStyle, backgroundColor: "#ff8c00" }}
-                onClick={() => openInNewTab("http://localhost:5001/")}
-              >
-                PET Images
-              </button>
-            </div>
           </div>
 
-          {/* 第三行 */}
-          <div style={{ marginTop: 70 }} id="persBox" ref={refPersonal}>
-            <button
-              style={{ ...buttonStyle, backgroundColor: "#800080" }}
-              onClick={() => openInNewTab("http://localhost:6001/")}
-            >
-              Personalized Dosing Regimens
-            </button>
-          </div>
+          {/* ---------- 箭头 ---------- */}
+          {/* physical -> 三个中间按钮 */}
+          <Xarrow
+            start={refPhysical}
+            end={refCSF}
+            startAnchor="right"
+            endAnchor="left"
+            curveness={0.4}
+            color="#444"
+            headSize={4}
+          />
+          <Xarrow
+            start={refPhysical}
+            end={refCausal}
+            startAnchor="right"
+            endAnchor="left"
+            curveness={0.4}
+            color="#444"
+            headSize={4}
+          />
+          <Xarrow
+            start={refPhysical}
+            end={refPET}
+            startAnchor="right"
+            endAnchor="left"
+            curveness={0.4}
+            color="#444"
+            headSize={4}
+          />
 
-          {/* 箭头 */}
+          {/* 中间三个 -> Digital Twin */}
+          <Xarrow
+            start={refCSF}
+            end={refDigital}
+            startAnchor="right"
+            endAnchor="left"
+            curveness={0.4}
+            color="#444"
+            headSize={4}
+          />
+          <Xarrow
+            start={refCausal}
+            end={refDigital}
+            startAnchor="right"
+            endAnchor="left"
+            curveness={0.4}
+            color="#444"
+            headSize={4}
+          />
+          <Xarrow
+            start={refPET}
+            end={refDigital}
+            startAnchor="right"
+            endAnchor="left"
+            curveness={0.4}
+            color="#444"
+            headSize={4}
+          />
+
+          {/* Causal Network 上下箭头 */}
           <Xarrow
             start={refCausal}
             end={refCSF}
-            startAnchor="bottom"
-            endAnchor="top"
-            curveness={0.7}
-            color="#444"
-            showHead
+            startAnchor="top"
+            endAnchor="bottom"
+            curveness={0.5}
+            color="#6c757d"
+            headSize={4}
           />
           <Xarrow
             start={refCausal}
             end={refPET}
             startAnchor="bottom"
             endAnchor="top"
-            curveness={0.7}
-            color="#444"
-            showHead
+            curveness={0.5}
+            color="#6c757d"
+            headSize={4}
           />
+
+          {/* Digital Twin -> Personalized */}
           <Xarrow
-            start={refCSF}
+            start={refDigital}
             end={refPersonal}
             startAnchor="bottom"
             endAnchor="top"
-            curveness={0.5}
+            curveness={0.6}
             color="#444"
-            showHead
+            headSize={4}
           />
+
+          {/* Personalized -> Physical */}
           <Xarrow
-            start={refPET}
-            end={refPersonal}
-            startAnchor="bottom"
-            endAnchor="top"
-            curveness={0.5}
+            start={refPersonal}
+            end={refPhysical}
+            startAnchor="left"
+            endAnchor="bottom"
+            curveness={0.6}
             color="#444"
-            showHead
+            headSize={4}
           />
         </Xwrapper>
       )}
