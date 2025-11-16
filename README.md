@@ -63,7 +63,7 @@ Open url `localhost:6001` on your browser to check the personalized dosing demo.
 
 If all the above services are running well, you can go back to the homepage to start illustration.
 
-## Recoding:
+## Recording:
 - Access the recording made on my PC here: [https://go.screenpal.com/watch/cTXDrGnFWWU](https://go.screenpal.com/watch/cTXDrGnFWWU)
 - Example:
 ![example](https://i-blog.csdnimg.cn/direct/a44dccbee1e44fda83741393ec975255.png)
