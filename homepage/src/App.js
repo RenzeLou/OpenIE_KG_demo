@@ -145,7 +145,7 @@ export default function App() {
             <div id="petBox" ref={refPET}>
               <button
                 style={{ ...buttonStyle, backgroundColor: "#ff8c00" }}
-                onClick={() => openInNewTab("http://localhost:5000/")}
+                onClick={() => openInNewTab("http://localhost:5001/")}
               >
                 PET Images
               </button>
@@ -156,7 +156,7 @@ export default function App() {
           <div style={{ marginTop: 70 }} id="persBox" ref={refPersonal}>
             <button
               style={{ ...buttonStyle, backgroundColor: "#800080" }}
-              onClick={() => openInNewTab("http://localhost:6000/")}
+              onClick={() => openInNewTab("http://localhost:6001/")}
             >
               Personalized Dosing Regimens
             </button>
