@@ -51,9 +51,11 @@ export default function App() {
 
     const timer = setInterval(() => {
       const ep = Math.floor(step / stepsPerEpoch);
+      // show accuracy as percentage (one decimal place)
+      const accPct = (parseFloat(acc(step)) * 100).toFixed(1) + "%";
       setTerminalLogs((p) => [
         ...p,
-        `Epoch ${ep + 1}: training loss ${loss(step)}, dev accuracy ${acc(step)}`,
+        `==> Epoch ${ep + 1} | training error: ${loss(step)} | validation accuracy: ${accPct}`,
       ]);
       step++;
       setProgress(Math.round((step / totalSteps) * 100));
@@ -156,7 +158,7 @@ export default function App() {
               margin: "14px auto",
               width: "260px",
               height: "14px",
-              border: "1px solid #ccc",
+              border: "1px solid #120101ff",
               borderRadius: "8px",
               overflow: "hidden",
               background: "#fafafa",

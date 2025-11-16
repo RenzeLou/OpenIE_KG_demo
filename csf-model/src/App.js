@@ -57,9 +57,11 @@ export default function App() {
       const epoch = Math.floor(currentStep / stepsPerEpoch);
       const loss = getLoss(currentStep);
       const acc = getAcc(currentStep);
+      // show accuracy as percentage (e.g., 85.0%)
+      const accPct = (parseFloat(acc) * 100).toFixed(1) + "%";
       setTerminalLogs((prev) => [
         ...prev,
-        `Epoch ${epoch + 1}: training loss ${loss}, dev accuracy ${acc}`,
+        `==> Epoch ${epoch + 1} | training error: ${loss} | validation accuracy: ${accPct}`,
       ]);
       currentStep++;
       setProgress(Math.round((currentStep / totalSteps) * 100));
