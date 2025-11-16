@@ -15,6 +15,12 @@ npm start
 1. Similar for the other sites, such as homepage and csf-models, just go to the folder and run `npm start`.
 
 
+
+11/16 update:
+- add the remaining sites (such as pet and personalized dosing).
+- adjust the homepage with clearer layout.
+- finish the whole demo.
+
 11/12 update:
 - add categorized aggregated graph for Causal Network module (previous verson, namely no categorized graph, are backed up as `*_v2.js`).
 - add homepage and csf-model module demo.

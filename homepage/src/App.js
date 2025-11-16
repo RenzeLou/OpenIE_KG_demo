@@ -23,7 +23,7 @@ export default function App() {
   const simulateLoadingAndRedirect = () => {
     setLoading(true);
     setProgress(0);
-    const duration = 3000;
+    const duration = 10000;
     const steps = 30;
     const stepTime = duration / steps;
     let current = 0;

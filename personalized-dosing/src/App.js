@@ -34,10 +34,10 @@ export default function App() {
     setPhase("training");
     setProgress(0);
     setTerminalLogs([]);
-    const totalEpoch = 5;
-    const stepsPerEpoch = 5;
+    const totalEpoch = 6;
+    const stepsPerEpoch = 8;
     const totalSteps = totalEpoch * stepsPerEpoch;
-    const duration = 20000;
+    const duration = 50000;
     const stepTime = duration / totalSteps;
     let s = 0;
 
@@ -68,7 +68,7 @@ export default function App() {
     setPredicting(true);
     setImageLoaded(false);
     setProgress(0);
-    const duration = 2000;
+    const duration = 3500;
     const steps = 40;
     const t = duration / steps;
     let s = 0;

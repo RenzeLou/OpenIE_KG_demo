@@ -40,7 +40,7 @@ export default function App() {
     const totalEpoch = 5;
     const stepsPerEpoch = 5;
     const totalSteps = totalEpoch * stepsPerEpoch;
-    const duration = 20000;
+    const duration = 30000;
     const stepTime = duration / totalSteps;
     let step = 0;
 
@@ -71,7 +71,7 @@ export default function App() {
     setPredicting(true);
     setImageLoaded(false);
     setProgress(0);
-    const duration = 2000;
+    const duration = 4000;
     const steps = 40;
     const stepTime = duration / steps;
     let s = 0;

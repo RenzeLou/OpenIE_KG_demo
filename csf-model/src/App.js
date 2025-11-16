@@ -40,7 +40,7 @@ export default function App() {
     const totalEpoch = 5;
     const stepsPerEpoch = 5;
     const totalSteps = totalEpoch * stepsPerEpoch;
-    const duration = 20000; // 20s
+    const duration = 40000; // 40s
     const stepTime = duration / totalSteps;
     let currentStep = 0;
 
