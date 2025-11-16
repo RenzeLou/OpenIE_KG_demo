@@ -264,7 +264,7 @@ export default function App() {
             <div ref={refPersonal} id="personal">
               <button
                 style={{ ...buttonStyle, backgroundColor: "#800080" }}
-                onClick={() => openInNewTab("http://localhost:6000/")}
+                onClick={() => openInNewTab("http://localhost:6001/")}
               >
                 Personalized Dosing Regimens
               </button>
