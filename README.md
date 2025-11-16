@@ -1,60 +1,69 @@
-0. `npm install react vis-network`
-1. run the `convert_json_to_js.py` to convert the model prediction result (json file) into a data.js file
-   if wanna show paper with the name, then further run `replace_paper_id.py` to replace abstractive paper id (such as paper_0_1) with the real paper name.
-   meanwhile, convert the token-level logprob into entity-level prob
-   i.e., P("entity") = exp( Σ_i logprob(t_i) )
-   
-   Make sure to set the correct `json_path` in the script.
+## The Demo Running Instruction:
 
-2. put the generated `data.js` file into the `my-graph-demo/src` folder.
-3. 
+### 0. System:
+
+I test on MacOS, all cmds should works well on Linux and MacOS.
+
+### 1. Environment Setup:
+
+Make sure you installed `nodejs` and `npm`.
+
+On MacOS, you can simply install `nodejs` via Homebrew:
 ```
-cd my-graph-demo
+brew install node
+```
+
+Then check your npm version:
+```
+node -v
+npm -v
+```
+
+### 2. Start all the services:
+
+- start homepage:
+```
+cd homepage 
+npm install
 npm start
 ```
-1. Similar for the other sites, such as homepage and csf-models, just go to the folder and run `npm start`.
+Open url `localhost:2999` on your browser to check the homepage.
 
-
-
-11/16 update:
-- add the remaining sites (such as pet and personalized dosing).
-- adjust the homepage with clearer layout.
-- finish the whole demo.
-
-11/12 update:
-- add categorized aggregated graph for Causal Network module (previous verson, namely no categorized graph, are backed up as `*_v2.js`).
-- add homepage and csf-model module demo.
-
-10/30 TODO:
-- optmize the display: when random select a subset of papers, still show "1/100" supported evidence, that is, need to calculate this info based on the selected subset only.
-- sparse graph, need to think about how to aggregate different nodes (maybe clustering)
-
----
-
-10/29 TODO:
-- should include the correct logprob output in the json file. Currently, the "biomarkers_logprobs" seems to be the whole generation sentence's logprobs, not the entity's logprobs.  have to change Arshan's code, only store each extracted biomarker's token-level logprobs. 
-
-Should looks like this:
+- start causal network demo:
 ```
-"biomarkers":[
-            {
-                "type":"Amyloid Pathology",
-                "name":"A\u03b2 peptides",
-                "explanation":"...",
-                "matched_name":{
-                },
-                logprob: {  # correct logprob corresponding to the entity tokens
-                    "content":[
-                        "bytes":[123,34], "logprob":-0.0018217856,
-                        ...
-                    ]
-                }
-            },
-        ],
+cd my-graph-demo
+npm install
+npm start
 ```
+Open url `localhost:3000` on your browser to check the causal network demo.
 
-after get correct logprobs, adjust the `convert_json_to_js.py` accordingly to compute the entity-level prob.
+- start csf-model demo:
+```
+cd csf-model 
+npm install
+npm start
+```
+Open url `localhost:4000` on your browser to check the csf-model demo.
 
+- start PET demo:
+```
+cd pet-images
+npm install
+npm start
+```
+Open url `localhost:5001` on your browser to check the PET demo.
 
-- Same for the relations' logprobs if needed.
-- Combine all the paper's graph into a big graph for better visualization. Need to use some techniques to combine the nodes, avoid cycles, and conflict edges, etc.
+- start personalized dosing demo:
+```
+cd personalized-dosing 
+npm install
+npm start
+```
+Open url `localhost:6001` on your browser to check the personalized dosing demo.
+
+If all the above services are running well, you can go back to the homepage to start illustration.
+
+## Recoding:
+- Access the recording made on my PC here: [https://go.screenpal.com/watch/cTXDrGnFWWU](https://go.screenpal.com/watch/cTXDrGnFWWU)
+- Example:
+![example](https://i-blog.csdnimg.cn/direct/a44dccbee1e44fda83741393ec975255.png)
